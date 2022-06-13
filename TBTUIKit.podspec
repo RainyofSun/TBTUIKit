@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBTUIKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'TBTUIKit '
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,10 @@ TODO: Add long description of the pod here.
   s.subspec 'BaseClass' do |ss|
     ss.source_files = 'TBTUIKit/Classes/BaseClass/*.{h,m}'
   end
+  
+  s.subspec 'Category' do |ss|
+    ss.source_files = 'TBTUIKit/Classes/Category/*.{h,m}'
+  end
   # s.resource_bundles = {
   #   'TBTUIKit' => ['TBTUIKit/Assets/*.png']
   # }
@@ -46,3 +50,4 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
