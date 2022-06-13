@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBTUIKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'TBTUIKit '
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,18 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TBTUIKit/Classes/**/*'
-  
+  # ------------------- 文件分级 --------------------- #
+  s.subspec 'UITool' do |ss|
+    ss.source_files = 'TBTUIKit/Classes/UITool/*.{h,m}'
+  end
+
+  s.subspec 'BaseClass' do |ss|
+    ss.source_files = 'TBTUIKit/Classes/BaseClass/BaseVC/*.{h,m}'
+  end
+
+  s.subspec 'BaseClass' do |ss|
+      ss.source_files = 'TBTUIKit/Classes/BaseClass/BaseNav/*.{h,m}'
+  end
   # s.resource_bundles = {
   #   'TBTUIKit' => ['TBTUIKit/Assets/*.png']
   # }
