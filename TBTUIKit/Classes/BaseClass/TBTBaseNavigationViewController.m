@@ -1,17 +1,17 @@
 //
-//  TBTBaseViewController.m
+//  TBTBaseNavigationViewController.m
 //  Pods
 //
 //  Created by 刘冉 on 2022/6/13.
 //
 
-#import "TBTBaseViewController.h"
+#import "TBTBaseNavigationViewController.h"
 
-@interface TBTBaseViewController ()
+@interface TBTBaseNavigationViewController ()
 
 @end
 
-@implementation TBTBaseViewController
+@implementation TBTBaseNavigationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

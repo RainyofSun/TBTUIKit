@@ -1,5 +1,9 @@
 PODS:
-  - TBTUIKit (0.1.0)
+  - TBTUIKit (0.1.1):
+    - TBTUIKit/BaseClass (= 0.1.1)
+    - TBTUIKit/UITool (= 0.1.1)
+  - TBTUIKit/BaseClass (0.1.1)
+  - TBTUIKit/UITool (0.1.1)
 
 DEPENDENCIES:
   - TBTUIKit (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TBTUIKit: a129cc6d1a2ea9cc41e4391853bcc0d279a308ac
+  TBTUIKit: b493b31a1a6f53f5352db2a0e09dff5a2361802b
 
 PODFILE CHECKSUM: ea91bc9527fb4f79eb07d68e9f073e1d4e6d85c1
 
