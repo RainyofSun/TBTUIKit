@@ -37,17 +37,32 @@ TODO: Add long description of the pod here.
 
   s.subspec 'BaseClass' do |ss|
     ss.source_files = 'TBTUIKit/Classes/BaseClass/*.{h,m}'
+    ss.dependency 'TBTUIKit/Classes/UITool'
+    ss.dependency 'TBTUIKit/Classes/MacroHeader'
   end
   
   s.subspec 'Category' do |ss|
     ss.source_files = 'TBTUIKit/Classes/Category/*.{h,m}'
+    ss.dependency 'TBTUIKit/Classes/MacroHeader'
   end
+  
+  s.subspec 'MacroHeader' do |ss|
+    ss.source_files = 'TBTUIKit/Classes/MacroHeader/*.{h}'
+  end
+  
+  s.subspec 'Widget' do |ss|
+    ss.source_files = 'TBTUIKit/Classes/Widget/*.{h,m}'
+    ss.dependency 'TBTUIKit/Classes/MacroHeader'
+    ss.dependency 'TBTUIKit/Classes/Category'
+    ss.dependency 'TBTUIKit/Classes/BaseClass'
+  end
+  
   # s.resource_bundles = {
   #   'TBTUIKit' => ['TBTUIKit/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.dependency 'RegexKitLite', '4.0'
 end
 

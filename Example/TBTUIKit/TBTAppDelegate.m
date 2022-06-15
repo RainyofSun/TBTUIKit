@@ -7,12 +7,15 @@
 //
 
 #import "TBTAppDelegate.h"
+#import "TBTRootViewController.h"
+#import "TBTBaseNavigationViewController.h"
 
 @implementation TBTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [self initWindow];
     return YES;
 }
 
@@ -41,6 +44,14 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)initWindow {
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    self.window.backgroundColor = [UIColor cyanColor];
+    TBTRootViewController *homeVC = [[TBTRootViewController alloc] init];
+    self.window.rootViewController = [[TBTBaseNavigationViewController alloc] initWithRootViewController:homeVC];
+    [self.window makeKeyAndVisible];
 }
 
 @end

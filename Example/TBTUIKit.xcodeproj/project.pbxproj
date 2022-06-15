@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* TBTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* TBTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* TBTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* TBTViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +23,9 @@
 		721C467CA349EC7C80C57E95 /* Pods_TBTUIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EAE64D0D920C903B4C69C5 /* Pods_TBTUIKit_Example.framework */; };
 		72A7B4C7017837B86451AA87 /* Pods_TBTUIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F355AC5D0FDEDDAF7867692 /* Pods_TBTUIKit_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C8A7134628586D8A00DB1AD3 /* TBTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A7134528586D8A00DB1AD3 /* TBTRootViewController.m */; };
+		C8A7134928586DF300DB1AD3 /* TBTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A7134828586DF300DB1AD3 /* TBTSecondViewController.m */; };
+		C8A7139C28597D7600DB1AD3 /* TBTTestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A7139B28597D7600DB1AD3 /* TBTTestTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +52,6 @@
 		6003F59B195388D20070C39A /* TBTUIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBTUIKit-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* TBTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* TBTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* TBTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* TBTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* TBTUIKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBTUIKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -66,6 +66,12 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94EAE64D0D920C903B4C69C5 /* Pods_TBTUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBTUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2DB63304D939ADFB39E753 /* Pods-TBTUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBTUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-TBTUIKit_Example/Pods-TBTUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C8A7134428586D8A00DB1AD3 /* TBTRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTRootViewController.h; sourceTree = "<group>"; };
+		C8A7134528586D8A00DB1AD3 /* TBTRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTRootViewController.m; sourceTree = "<group>"; };
+		C8A7134728586DF300DB1AD3 /* TBTSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTSecondViewController.h; sourceTree = "<group>"; };
+		C8A7134828586DF300DB1AD3 /* TBTSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTSecondViewController.m; sourceTree = "<group>"; };
+		C8A7139A28597D7600DB1AD3 /* TBTTestTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTTestTableView.h; sourceTree = "<group>"; };
+		C8A7139B28597D7600DB1AD3 /* TBTTestTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTTestTableView.m; sourceTree = "<group>"; };
 		EBFEC4463CA0910296B0A456 /* Pods-TBTUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBTUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TBTUIKit_Tests/Pods-TBTUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,11 +141,15 @@
 				6003F59C195388D20070C39A /* TBTAppDelegate.h */,
 				6003F59D195388D20070C39A /* TBTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* TBTViewController.h */,
-				6003F5A6195388D20070C39A /* TBTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				C8A7134428586D8A00DB1AD3 /* TBTRootViewController.h */,
+				C8A7134528586D8A00DB1AD3 /* TBTRootViewController.m */,
+				C8A7134728586DF300DB1AD3 /* TBTSecondViewController.h */,
+				C8A7134828586DF300DB1AD3 /* TBTSecondViewController.m */,
+				C8A7139A28597D7600DB1AD3 /* TBTTestTableView.h */,
+				C8A7139B28597D7600DB1AD3 /* TBTTestTableView.m */,
 			);
 			name = "Example for TBTUIKit";
 			path = TBTUIKit;
@@ -368,8 +378,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* TBTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* TBTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C8A7139C28597D7600DB1AD3 /* TBTTestTableView.m in Sources */,
+				C8A7134628586D8A00DB1AD3 /* TBTRootViewController.m in Sources */,
+				C8A7134928586DF300DB1AD3 /* TBTSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +513,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TBTUIKit/TBTUIKit-Prefix.pch";
 				INFOPLIST_FILE = "TBTUIKit/TBTUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +531,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TBTUIKit/TBTUIKit-Prefix.pch";
 				INFOPLIST_FILE = "TBTUIKit/TBTUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
