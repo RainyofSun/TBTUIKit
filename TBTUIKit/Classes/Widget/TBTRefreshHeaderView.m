@@ -6,7 +6,7 @@
 //
 
 #import "TBTRefreshHeaderView.h"
-#import "TBTBaseRefreshHeaderView.h"
+#import "TBTRefreshActivityAnimationView.h"
 #import "UIColor+Hex.h"
 #import "UIView+WalkSubview.h"
 #import "MacroHeader.h"
@@ -27,7 +27,7 @@
         self.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         self.backgroundColor = [UIColor whiteColor];
         
-        _loadingView = [[TBTBaseRefreshHeaderView alloc] initWithFrame:CGRectMake(0, frame.size.height - 60.0f, frame.size.width, 60)];
+        _loadingView = [[TBTRefreshActivityAnimationView alloc] initWithFrame:CGRectMake(0, frame.size.height - 60.0f, frame.size.width, 60)];
         [self addSubview:_loadingView];
         
         [self setState:TBTPullRefreshNormal];
@@ -81,6 +81,7 @@
     switch (aState) {
         case TBTPullRefreshPulling:
         {
+            [_loadingView setStatusLabText:@"放开刷新"];
             [_loadingView stopAnimations];
             [scrollView setContentInset:UIEdgeInsetsMake(_defaultContentInset + _ios11ContentInsetTop, 0.0f, scrollView.contentInset.bottom, 0.0f)];
         }
@@ -93,6 +94,7 @@
             break;
         case TBTPullRefreshLoading:
         {
+            [_loadingView setStatusLabText:@""];
             [_loadingView startAnimations];
             CGFloat offset = MAX(scrollView.contentOffset.y * -1, 0);
             offset = MIN(offset, _loadingView.bounds.size.height)+_defaultContentInset + _ios11ContentInsetTop;

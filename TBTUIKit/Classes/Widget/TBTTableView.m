@@ -10,7 +10,7 @@
 #import "TBTRefreshHeaderView.h"
 #import "MacroHeader.h"
 #import "UIView+TBTViewExtension.h"
-#import "TBTBaseRefreshHeaderView.h"
+#import "TBTRefreshActivityAnimationView.h"
 #import "UIScrollView+Additions.h"
 
 @interface UITableView()

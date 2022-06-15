@@ -15,7 +15,7 @@ typedef enum{
     TBTPullRefreshLoading,
 } TBTPullRefreshState;
 
-@class TBTRefreshHeaderView,TBTBaseRefreshHeaderView;
+@class TBTRefreshHeaderView,TBTRefreshActivityAnimationView;
 @protocol TBTRefreshHeaderDelegate <NSObject>
 
 - (void)egoRefreshTableHeaderDidTriggerRefresh:(TBTRefreshHeaderView*)view;
@@ -35,15 +35,10 @@ typedef enum{
 @interface TBTRefreshHeaderView : UIView
 {
     TBTPullRefreshState _state;
-    
-    UILabel *_lastUpdatedLabel;
-    UILabel *_statusLabel;
-    CALayer *_arrowImage;
-    UIActivityIndicatorView *_activityView;
     CGFloat _defaultContentInset;
 }
 
-@property(nonatomic, strong) TBTBaseRefreshHeaderView *loadingView;
+@property(nonatomic, strong) TBTRefreshActivityAnimationView *loadingView;
 @property(nonatomic, weak) id<TBTRefreshHeaderDelegate> delegate;
 @property(nonatomic, assign)CGFloat defaultContentInset;
 @property(nonatomic, assign)CGFloat ios11ContentInsetTop;
