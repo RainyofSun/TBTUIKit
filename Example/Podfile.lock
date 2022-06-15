@@ -1,11 +1,21 @@
 PODS:
-  - TBTUIKit (0.1.3):
-    - TBTUIKit/BaseClass (= 0.1.3)
-    - TBTUIKit/Category (= 0.1.3)
-    - TBTUIKit/UITool (= 0.1.3)
-  - TBTUIKit/BaseClass (0.1.3)
-  - TBTUIKit/Category (0.1.3)
-  - TBTUIKit/UITool (0.1.3)
+  - TBTUIKit (0.1.4):
+    - TBTUIKit/BaseClass (= 0.1.4)
+    - TBTUIKit/Category (= 0.1.4)
+    - TBTUIKit/MacroHeader (= 0.1.4)
+    - TBTUIKit/UITool (= 0.1.4)
+    - TBTUIKit/Widget (= 0.1.4)
+  - TBTUIKit/BaseClass (0.1.4):
+    - TBTUIKit/MacroHeader
+    - TBTUIKit/UITool
+  - TBTUIKit/Category (0.1.4):
+    - TBTUIKit/MacroHeader
+  - TBTUIKit/MacroHeader (0.1.4)
+  - TBTUIKit/UITool (0.1.4)
+  - TBTUIKit/Widget (0.1.4):
+    - TBTUIKit/BaseClass
+    - TBTUIKit/Category
+    - TBTUIKit/MacroHeader
 
 DEPENDENCIES:
   - TBTUIKit (from `../`)
@@ -15,8 +25,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TBTUIKit: d7ae2dd2e1384f97e7d704a7b4d4a4b15a0f7652
+  TBTUIKit: b28b984107732eb80ddf93024139c13290d37add
 
-PODFILE CHECKSUM: ea91bc9527fb4f79eb07d68e9f073e1d4e6d85c1
+PODFILE CHECKSUM: b60066ea610073f49041d5a6ff61a00d6bf37f5c
 
 COCOAPODS: 1.11.3

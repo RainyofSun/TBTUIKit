@@ -7,8 +7,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface NSString (Size)
 
 - (CGSize)threadSafeSizeWithFont:(UIFont *)font;
@@ -28,5 +26,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (CGSize)tbt_sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode attributes:(NSDictionary *)attributes;
 
 @end
-
-NS_ASSUME_NONNULL_END

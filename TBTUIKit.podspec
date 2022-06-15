@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/RainyofSun/TBTUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   # ------------------- 文件分级 --------------------- #
   s.subspec 'UITool' do |ss|
@@ -37,13 +37,14 @@ TODO: Add long description of the pod here.
 
   s.subspec 'BaseClass' do |ss|
     ss.source_files = 'TBTUIKit/Classes/BaseClass/*.{h,m}'
-    ss.dependency 'TBTUIKit/Classes/UITool'
-    ss.dependency 'TBTUIKit/Classes/MacroHeader'
+    ss.dependency 'TBTUIKit/UITool'
+    ss.dependency 'TBTUIKit/MacroHeader'
+    ss.dependency 'TBTUIKit/Category'
   end
   
   s.subspec 'Category' do |ss|
     ss.source_files = 'TBTUIKit/Classes/Category/*.{h,m}'
-    ss.dependency 'TBTUIKit/Classes/MacroHeader'
+    ss.dependency 'TBTUIKit/MacroHeader'
   end
   
   s.subspec 'MacroHeader' do |ss|
@@ -52,9 +53,9 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Widget' do |ss|
     ss.source_files = 'TBTUIKit/Classes/Widget/*.{h,m}'
-    ss.dependency 'TBTUIKit/Classes/MacroHeader'
-    ss.dependency 'TBTUIKit/Classes/Category'
-    ss.dependency 'TBTUIKit/Classes/BaseClass'
+    ss.dependency 'TBTUIKit/MacroHeader'
+    ss.dependency 'TBTUIKit/Category'
+    ss.dependency 'TBTUIKit/BaseClass'
   end
   
   # s.resource_bundles = {
