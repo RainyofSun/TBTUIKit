@@ -12,13 +12,13 @@
 + (UIFont *)getFontWithStyle:(TBTFontStyle)fontStyle isBold:(BOOL)bold {
     switch (fontStyle) {
         case TBTFontStyle_Medium:
-            return bold ? [UIFont boldSystemFontOfSize:bold] : [UIFont systemFontOfSize:17];
+            return bold ? [UIFont boldSystemFontOfSize:17] : [UIFont systemFontOfSize:17];
         case TBTFontStyle_Large:
-            return bold ? [UIFont boldSystemFontOfSize:bold] : [UIFont systemFontOfSize:20];
+            return bold ? [UIFont boldSystemFontOfSize:20] : [UIFont systemFontOfSize:20];
         case TBTFontStyle_little:
-            return bold ? [UIFont boldSystemFontOfSize:bold] : [UIFont systemFontOfSize:12];
+            return bold ? [UIFont boldSystemFontOfSize:12] : [UIFont systemFontOfSize:12];
         default:
-            return bold ? [UIFont boldSystemFontOfSize:bold] : [UIFont systemFontOfSize:14];
+            return bold ? [UIFont boldSystemFontOfSize:14] : [UIFont systemFontOfSize:14];
     }
 }
 
