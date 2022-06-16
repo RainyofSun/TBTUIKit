@@ -33,7 +33,7 @@ static const BOOL popGestureEnabled = YES;
 
 - (void)configureNavigationBar {
     NSDictionary *titleTextAttributes = @{NSForegroundColorAttributeName:UIColor.blackColor,
-                                          NSFontAttributeName:[TBTUIFont getFontWithStyle:TBTFontStyle_Large]
+                                          NSFontAttributeName:[TBTUIFont getFontWithStyle:TBTFontStyle_Large isBold:NO]
     };
     
     if (@available(iOS 13.0, *)) {
