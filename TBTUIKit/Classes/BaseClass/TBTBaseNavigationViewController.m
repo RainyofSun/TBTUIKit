@@ -7,7 +7,7 @@
 
 #import "TBTBaseNavigationViewController.h"
 #import "UINavigationItem+TBTNavigation.h"
-#import "TBTUIKit/TBTUIFont.h"
+#import <TBTUIKit/TBTUIFont.h>
 #import "UIDevice+Utilities.h"
 
 /// Whether to use system pop gesture. If NO, full-screen pop gesture will be set.

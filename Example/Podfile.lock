@@ -1,18 +1,19 @@
 PODS:
-  - TBTUIKit (0.1.4):
-    - TBTUIKit/BaseClass (= 0.1.4)
-    - TBTUIKit/Category (= 0.1.4)
-    - TBTUIKit/MacroHeader (= 0.1.4)
-    - TBTUIKit/UITool (= 0.1.4)
-    - TBTUIKit/Widget (= 0.1.4)
-  - TBTUIKit/BaseClass (0.1.4):
+  - TBTUIKit (0.1.6):
+    - TBTUIKit/BaseClass (= 0.1.6)
+    - TBTUIKit/Category (= 0.1.6)
+    - TBTUIKit/MacroHeader (= 0.1.6)
+    - TBTUIKit/UITool (= 0.1.6)
+    - TBTUIKit/Widget (= 0.1.6)
+  - TBTUIKit/BaseClass (0.1.6):
+    - TBTUIKit/Category
     - TBTUIKit/MacroHeader
     - TBTUIKit/UITool
-  - TBTUIKit/Category (0.1.4):
+  - TBTUIKit/Category (0.1.6):
     - TBTUIKit/MacroHeader
-  - TBTUIKit/MacroHeader (0.1.4)
-  - TBTUIKit/UITool (0.1.4)
-  - TBTUIKit/Widget (0.1.4):
+  - TBTUIKit/MacroHeader (0.1.6)
+  - TBTUIKit/UITool (0.1.6)
+  - TBTUIKit/Widget (0.1.6):
     - TBTUIKit/BaseClass
     - TBTUIKit/Category
     - TBTUIKit/MacroHeader
@@ -25,7 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TBTUIKit: b28b984107732eb80ddf93024139c13290d37add
+  TBTUIKit: 4f679dfd15888e2683e6645c3b0b1d575e45a79f
 
 PODFILE CHECKSUM: b60066ea610073f49041d5a6ff61a00d6bf37f5c
 
