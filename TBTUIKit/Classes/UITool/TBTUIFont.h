@@ -18,8 +18,9 @@ typedef enum {
 
 @interface TBTUIFont : NSObject
 
-+ (UIFont *)getFontWithStyle:(TBTFontStyle)fontStyle;
-+ (UIFont *)getFontWithSize:(CGFloat)fontSize;
++ (UIFont *)getFontWithStyle:(TBTFontStyle)fontStyle isBold:(BOOL)bold;
++ (UIFont *)getFontWithStyle:(TBTFontStyle)fontStyle fontWeight:(UIFontWeight)weight;
++ (UIFont *)getFontWithSize:(CGFloat)fontSize isBold:(BOOL)bold;
 
 @end
 

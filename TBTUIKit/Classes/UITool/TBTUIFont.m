@@ -9,24 +9,37 @@
 
 @implementation TBTUIFont
 
-+ (UIFont *)getFontWithStyle:(TBTFontStyle)fontStyle {
++ (UIFont *)getFontWithStyle:(TBTFontStyle)fontStyle isBold:(BOOL)bold {
     switch (fontStyle) {
         case TBTFontStyle_Medium:
-            return [UIFont systemFontOfSize:17];
+            return bold ? [UIFont boldSystemFontOfSize:bold] : [UIFont systemFontOfSize:17];
         case TBTFontStyle_Large:
-            return [UIFont systemFontOfSize:20];
+            return bold ? [UIFont boldSystemFontOfSize:bold] : [UIFont systemFontOfSize:20];
         case TBTFontStyle_little:
-            return [UIFont systemFontOfSize:12];
+            return bold ? [UIFont boldSystemFontOfSize:bold] : [UIFont systemFontOfSize:12];
         default:
-            return [UIFont systemFontOfSize:14];
+            return bold ? [UIFont boldSystemFontOfSize:bold] : [UIFont systemFontOfSize:14];
     }
 }
 
-+ (UIFont *)getFontWithSize:(CGFloat)fontSize {
-    if (fontSize < 12) {
-        return [self getFontWithStyle:TBTFontStyle_Normal];
++ (UIFont *)getFontWithStyle:(TBTFontStyle)fontStyle fontWeight:(UIFontWeight)weight {
+    switch (fontStyle) {
+        case TBTFontStyle_Medium:
+            return [UIFont systemFontOfSize:17 weight:weight];
+        case TBTFontStyle_Large:
+            return [UIFont systemFontOfSize:20 weight:weight];
+        case TBTFontStyle_little:
+            return [UIFont systemFontOfSize:12 weight:weight];
+        default:
+            return [UIFont systemFontOfSize:14 weight:weight];
     }
-    return [UIFont systemFontOfSize:fontSize];
+}
+
++ (UIFont *)getFontWithSize:(CGFloat)fontSize isBold:(BOOL)bold {
+    if (fontSize < 12) {
+        return [self getFontWithStyle:TBTFontStyle_Normal isBold:bold];
+    }
+    return bold ? [UIFont boldSystemFontOfSize:fontSize] : [UIFont systemFontOfSize:fontSize];
 }
 
 @end
