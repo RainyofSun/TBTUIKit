@@ -9,6 +9,10 @@
 #import "TBTRootViewController.h"
 #import "TBTSecondViewController.h"
 #import "TBTTestTableView.h"
+#import "TBTAlertView.h"
+#import <TBTUIKit/TBTUIColor.h>
+#import <TBTUIKit/UIColor+Hex.h>
+#import <TBTUIKit/NSObject+AssociatedObject.h>
 
 @interface TBTRootViewController ()
 
@@ -21,12 +25,50 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.view addSubview:self.testView];
+//    [self testTableView];
 }
 
-//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 //    [self.navigationController pushViewController:[[TBTSecondViewController alloc] init] animated:YES];
-//}
+    [self testAlert];
+}
+
+- (void)testAlert {
+    
+    NSMutableAttributedString *toastAttribute = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@%@%@",@"请确认注销账号",@"小花花",@"，注销成功后，本账号的所有相关信息都将无法找回。"]];
+    NSRange frange = [toastAttribute.string rangeOfString:@"请确认注销账号"];
+    NSRange srange = [toastAttribute.string rangeOfString:@"小花花"];
+    NSRange trange = [toastAttribute.string rangeOfString:@"，注销成功后，本账号的所有相关信息都将无法找回。"];
+    if (frange.location != NSNotFound && srange.location != NSNotFound && trange.location != NSNotFound) {
+        [toastAttribute addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:14] range:frange];
+        [toastAttribute addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHexColorString:@"999999"] range:frange];
+        [toastAttribute addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:14] range:srange];
+        [toastAttribute addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHexColorString:@"151515"] range:srange];
+        [toastAttribute addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:14] range:trange];
+        [toastAttribute addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHexColorString:@"999999"] range:trange];
+    }
+    NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
+    style.alignment = NSTextAlignmentLeft;
+    style.lineBreakMode = NSLineBreakByCharWrapping;
+    style.lineSpacing = 5;
+    [toastAttribute addAttribute:NSParagraphStyleAttributeName value:style range:NSMakeRange(0, toastAttribute.length - 1)];
+    
+    NSString *placeMessage = @"setting_toast_placehold";
+    [placeMessage setObject:toastAttribute forAssociatedKey:k_alert_message_attr_key retained:YES];
+    
+    TBTAlertViewItem *cancelItem = [TBTAlertViewItem cancelItem];
+    TBTAlertViewItem *continueItem = [[TBTAlertViewItem alloc] initWithAction:^(TBTBaseAlertView *alertView) {
+        NSLog(@"点击确认");
+    } title:@"确认"];
+    continueItem.backgroundColor = [TBTUIColor mainThemeColor];
+    cancelItem.backgroundColor = [UIColor cyanColor];
+    TBTAlertView *alertView = [[TBTAlertView alloc] initWithTitle:@"测试弹窗" message:placeMessage items:@[continueItem]];
+    [alertView show];
+}
+
+- (void)testTableView {
+    [self.view addSubview:self.testView];
+}
 
 - (TBTTestTableView *)testView {
     if (!_testView) {

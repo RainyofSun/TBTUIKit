@@ -16,13 +16,34 @@ static UIColor* TBTRGBColor(CGFloat r,CGFloat g,CGFloat b) {
 
 @interface TBTUIColor : NSObject
 
+/**
+ * 333333
+ */
 + (UIColor *)mainDarkColor;
+/**
+ * 999999
+ */
 + (UIColor *)lightDarkColor;
+/**
+ * 绿色
+ */
 + (UIColor *)mainThemeColor;
+/**
+ * 黑色
+ */
 + (UIColor *)darkThemeColor;
+/**
+ * 浅灰色
+ */
 + (UIColor *)lightThemeColor;
-
+/**
+ * eeeeee
+ */
 + (UIColor *)lightGrayLineColor;
+/**
+ * f2f2f2
+ */
++ (UIColor *)lightGrayBackgroundColor;
 
 @end
 

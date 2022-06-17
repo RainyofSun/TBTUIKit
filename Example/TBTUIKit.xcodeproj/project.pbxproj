@@ -315,10 +315,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TBTUIKit_Example/Pods-TBTUIKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TBTTabBarController/TBTTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/TBTUIKit/TBTUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBTTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBTUIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

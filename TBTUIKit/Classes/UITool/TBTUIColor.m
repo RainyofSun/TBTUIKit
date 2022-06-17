@@ -10,15 +10,15 @@
 @implementation TBTUIColor
 
 + (UIColor *)mainDarkColor {
-    return TBTRGBColor(19.f, 19.f, 19.f);
+    return TBTRGBColor(51.f, 51.f, 51.f);
 }
 
 + (UIColor *)lightDarkColor {
-    return TBTRGBColor(164.f, 165.f, 166.f);
+    return TBTRGBColor(153.f, 153.f, 153.f);
 }
 
 + (UIColor *)mainThemeColor {
-    return TBTRGBColor(3.f, 160.f, 235.f);
+    return TBTRGBColor(38.f, 191.f, 107.f);
 }
 
 + (UIColor *)darkThemeColor {
@@ -30,7 +30,11 @@
 }
 
 + (UIColor *)lightGrayLineColor {
-    return TBTRGBColor(232.f, 234.f, 235.f);
+    return TBTRGBColor(238.f, 238.f, 238.f);
+}
+
++ (UIColor *)lightGrayBackgroundColor {
+    return TBTRGBColor(242, 242, 242);
 }
 
 @end
