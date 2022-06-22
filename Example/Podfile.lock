@@ -1,25 +1,25 @@
 PODS:
   - TBTTabBarController (0.1.0)
-  - TBTUIKit (0.1.8):
+  - TBTUIKit (0.2.1):
     - TBTTabBarController
-    - TBTUIKit/BaseClass (= 0.1.8)
-    - TBTUIKit/Category (= 0.1.8)
-    - TBTUIKit/MacroHeader (= 0.1.8)
-    - TBTUIKit/UITool (= 0.1.8)
-    - TBTUIKit/Widget (= 0.1.8)
-  - TBTUIKit/BaseClass (0.1.8):
+    - TBTUIKit/BaseClass (= 0.2.1)
+    - TBTUIKit/Category (= 0.2.1)
+    - TBTUIKit/MacroHeader (= 0.2.1)
+    - TBTUIKit/UITool (= 0.2.1)
+    - TBTUIKit/Widget (= 0.2.1)
+  - TBTUIKit/BaseClass (0.2.1):
     - TBTTabBarController
     - TBTUIKit/Category
     - TBTUIKit/MacroHeader
     - TBTUIKit/UITool
-  - TBTUIKit/Category (0.1.8):
+  - TBTUIKit/Category (0.2.1):
     - TBTTabBarController
     - TBTUIKit/MacroHeader
-  - TBTUIKit/MacroHeader (0.1.8):
+  - TBTUIKit/MacroHeader (0.2.1):
     - TBTTabBarController
-  - TBTUIKit/UITool (0.1.8):
+  - TBTUIKit/UITool (0.2.1):
     - TBTTabBarController
-  - TBTUIKit/Widget (0.1.8):
+  - TBTUIKit/Widget (0.2.1):
     - TBTTabBarController
     - TBTUIKit/BaseClass
     - TBTUIKit/Category
@@ -38,7 +38,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   TBTTabBarController: c91ed2435d68ebff3378e7feda0d4f1ef3dbc43a
-  TBTUIKit: ff7657d78c8f6388377f14655f95e8a03776b598
+  TBTUIKit: 3ac9337dbc0cad8c7a71d8225faa7f718c1a7e3f
 
 PODFILE CHECKSUM: b60066ea610073f49041d5a6ff61a00d6bf37f5c
 
