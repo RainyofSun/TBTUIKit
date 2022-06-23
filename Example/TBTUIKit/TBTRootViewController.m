@@ -10,9 +10,7 @@
 #import "TBTSecondViewController.h"
 #import "TBTTestTableView.h"
 #import "TBTAlertView.h"
-#import <TBTUIKit/TBTUIColor.h>
-#import <TBTUIKit/UIColor+Hex.h>
-#import <TBTUIKit/NSObject+AssociatedObject.h>
+#import <TBTUIKit/TBTUIKit-umbrella.h>
 
 @interface TBTRootViewController ()
 
@@ -26,11 +24,25 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 //    [self testTableView];
+    [self testTimerBtn];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 //    [self.navigationController pushViewController:[[TBTSecondViewController alloc] init] animated:YES];
-    [self testAlert];
+//    [self testAlert];
+}
+
+- (void)testTimerBtn {
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(100, 100, 160, 40);
+    [btn startWithTime:59 title:@"获取" countDownTitle:@"获取" mainColor:[UIColor whiteColor] countColor:[UIColor whiteColor]];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(timerBtn:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+
+- (void)timerBtn:(UIButton *)sender {
+    [sender startWithTime:59 title:@"获取" countDownTitle:@"获取" mainColor:[UIColor whiteColor] countColor:[UIColor whiteColor]];
 }
 
 - (void)testAlert {

@@ -38,10 +38,10 @@
         {
             //大于0时计算需要显示的文字
             int seconds = (int)timeOut % 60;
-            NSString * timeStr = [NSString stringWithFormat:@"%0.2d",seconds];
+            NSString * timeStr = [NSString stringWithFormat:@"%d",seconds];
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.backgroundColor = color;
-                [self setTitle:[NSString stringWithFormat:@"%@%@",timeStr,subTitle] forState:UIControlStateNormal];
+                [self setTitle:[NSString stringWithFormat:@"%@(%@s)",subTitle,timeStr] forState:UIControlStateNormal];
                 self.userInteractionEnabled = NO;
             });
             timeOut--;

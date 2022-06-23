@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBTUIKit'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'TBTUIKit '
 
 # This description is used to generate tags and improve search results.
@@ -62,7 +62,7 @@ TODO: Add long description of the pod here.
   #   'TBTUIKit' => ['TBTUIKit/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/TBTUIKit.h'
+#   s.public_header_files = 'Pod/Classes/TBTUIKit.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'TBTTabBarController'
 end
