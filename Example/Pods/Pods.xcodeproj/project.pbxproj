@@ -1,0 +1,1347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D1F0E059AC00AD83A69CB236EBAE32 /* TBTRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA58259B78AA5ABD8CC54756CAA412 /* TBTRefreshHeaderView.m */; };
+		0C763DD2CAEB980DAE18FB59395B89C2 /* TBTBaseViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E03EB4D52383BC0B6CA254D66B42721A /* TBTBaseViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D11EF6271495E515FEC62DD7A43770C /* Pods-TBTUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 335D7F301488F7D91A37E146AB9B949E /* Pods-TBTUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		121B262F6909CFC7060481CD272E2E12 /* NSObject+AssociatedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E5128AB20FFBB58047E4E5B43C99E4 /* NSObject+AssociatedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		124F306C744394FA3754FFDED2501069 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		182BC71861D6ABB2229020BCCCCE6C9A /* UIImage+Stretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFAA04DD7924A9D617B0EA89719122 /* UIImage+Stretch.m */; };
+		1942511D0BB90153B37D0B34D224251B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		198E4DD2C31F5DC7B2D9C06923461564 /* UIView+WalkSubview.h in Headers */ = {isa = PBXBuildFile; fileRef = D94A779E72E4D7C8D4CECDB9FCB4A1FF /* UIView+WalkSubview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA37986373FCFA555EDF483163F93E7 /* TBTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C2BD58C7C36763F0A05AA6AFE7202A /* TBTAlertView.m */; };
+		208BB4EC66A62B863DF9BB62E35ECFE1 /* CADisplayLink+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = AF74CCBAAD67BEFF4E60CE7679169C8E /* CADisplayLink+Block.m */; };
+		20FDE914393F3A50E2AE90720810D700 /* UIImage+TBTBundleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6228FB24BE5DF75D8C6406C8812563 /* UIImage+TBTBundleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2243855FC870BAC79944F989CFADBBCD /* UIView+TBTViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E25C79C7DED7BEDF50E3A4E23C8EB /* UIView+TBTViewExtension.m */; };
+		26B169E18DE68CCDA8464EC55E6E3A4B /* TBTBaseAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 945FF2B89D4DFFD75E90B7D19072F13E /* TBTBaseAlertView.m */; };
+		2A7B3CF9F7BDF8435F51AD032985FCB2 /* TBTBaseAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FB50FD8503055F95817928E188C3F3 /* TBTBaseAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D163F0D6033FC9CAC3330C954E321C2 /* UINavigationItem+TBTNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFCD71BE14A5EE9E14A12BE49AE81DD /* UINavigationItem+TBTNavigation.m */; };
+		32F038FB905F14E167B390D8138EDB4F /* UIButton+HitBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A4439FABFD95B88E1F6C384A1F8C63 /* UIButton+HitBounds.m */; };
+		36C5CAAB0524D7BDB45285EBB1EA09F8 /* TBTCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E1E0198086BCECA7156156B8CC74642 /* TBTCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A60E70B6ABD1FA17AF7FE126F12DEAC /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9EDA652E16038E24A9D4DAF383BD11 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C368EA99C920D811E3F700AD44E2DD2 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2CCEB6AD89677503FD5AE3473176D4 /* UIImage+Crop.m */; };
+		44C754B67AF156A610601D6C6D4BFAC9 /* MacroHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BA6B1F9EF414954C065BC609D148C9 /* MacroHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C7A4A2CDD4398BDB7BDB52A3CCB1F2 /* TBTUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8960EB1664EA74F5EB89FD827F22B96F /* TBTUIColor.m */; };
+		48D01C01B7D7D374BBD73106CC47827C /* UIImage+Stretch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C66FF6AF14522E628AA8E057548EE29 /* UIImage+Stretch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50CFC15EB3B20A1571397F0889CF97F0 /* TBTUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D916F4C3DD732CBCF414ECC93EE830 /* TBTUIKit-dummy.m */; };
+		55650CA13BE403088DCB03A856E03D6C /* TBTUIImageExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F86F4A7F620EA2C9CACE9354ECBAE4 /* TBTUIImageExtension.m */; };
+		5795152913421690E95583A961C3B9BA /* TBTScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0C30D563FC817D94C260776BF92170 /* TBTScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		696566DB18F0D11E03E0DCA45D825ED8 /* TBTTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = C082F3FC20037954CD54112BF471CFD5 /* TBTTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AD5A2B866D082DCC93C13D9E4E597AE /* TBTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5659D75CB45214740812E2EEEFE8F1F2 /* TBTBaseModel.m */; };
+		6BB685DA9961DF801C055F6C690B1676 /* TBTBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198EC7B84CE87F3A5C9637B348241DF0 /* TBTBaseNavigationViewController.m */; };
+		6BC38E56FCCAD12974EBCCDEF2DEA11D /* TBTAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9E1C82A7E173C52D2ABE3558BC7BA8 /* TBTAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C1C3CA03041799B89871B9C688339D7 /* UIView+TBTViewExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B803F982D60831513A50D81C994934 /* UIView+TBTViewExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		702E0EA5A5151A3CB9A5557CFD5C0E58 /* NSDate+Utilites.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BA6030CDC55864A313850622FF8AAE /* NSDate+Utilites.m */; };
+		7144D0B7CBC3326E257D9EB0581C4867 /* UIDevice+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE2C3D1301C93779263E5028C3D8D11 /* UIDevice+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7371404549EA46B39A8DDC1626DDDF06 /* UIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAEAF11CAA77650E1ACC7D06EDE81F /* UIScrollView+Additions.m */; };
+		77311D8E61F10D088EA15BEA30B38BEB /* TBTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9B806667D91F35F4D3A30573E28A37 /* TBTTabBar.m */; };
+		7813E45F0E9AC26EE43152088678BBD6 /* NSTimer+TBTSafeTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F63CA2043385D944D26AD20739D93FEE /* NSTimer+TBTSafeTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B8CA33C2877C8F200820EC6 /* TBTUIPaddingConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8CA33A2877C8F200820EC6 /* TBTUIPaddingConfig.h */; };
+		7B8CA33D2877C8F200820EC6 /* TBTUIPaddingConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA33B2877C8F200820EC6 /* TBTUIPaddingConfig.m */; };
+		7E461263A417A9B3DD03A142EFB9D265 /* TBTUIFont.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F321E7D760B53301C23E5A4F6A864E /* TBTUIFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5F7864FD7DDDFCC684FF36427D0F66 /* UIImage+TBTBundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4449D5E208A40C81DC8C9C566F2BF9 /* UIImage+TBTBundleImage.m */; };
+		81D6A39EB234BE76A0551BC1EFCBD6AD /* TBTLoadMoreFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A6AD41D3C079D19DB1633B14760B5 /* TBTLoadMoreFooterView.m */; };
+		8269362706F26378C62FF7A086B25028 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D84D5578D837E366A7294AB85FE13B38 /* NSString+Extension.m */; };
+		86B695F15AB5548C514FE5FEB6C0EBA4 /* UIButton+TBTTimerBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4C8D7F3FCCBD206EC62C6D225328C5 /* UIButton+TBTTimerBtn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A42C6E3AA290E09073C8FCA68DA3F2F /* Pods-TBTUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C4E553CC962625041180B287CEA5E /* Pods-TBTUIKit_Tests-dummy.m */; };
+		93F5AD793E507FB0313327DE1591606F /* TBTUIFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB6560B7B579CA66BDD03D915C73E2 /* TBTUIFont.m */; };
+		94558A2560DEF5C58DD798C7627CF25A /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A859B3EF2C2D4F4A7620205478FE37B /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95AFAB8CA792AE35DAD7AB9C40A50814 /* TBTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A192C756A68DA0A333A4B68C53DDC888 /* TBTTabBarController.m */; };
+		974BFE178B98C72BB5DB67D03ED76368 /* UIDevice+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F05E0E78D8B9614A9A351305DB7B789 /* UIDevice+Utilities.m */; };
+		975E8CE4653F0592BCD1EAE3EE574A9C /* NSString+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB13E2E62549CD13AE8CE8FD0784C38 /* NSString+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		988998CDBBFD446BA6D22FBB8388FFF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9EAF062F4B45CE1701411F896B262C59 /* TBTBaseRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E387043BE00557F9581C75C60808BB1A /* TBTBaseRefreshHeaderView.m */; };
+		9F41071E9522BD77F2BC2C7EC00B569E /* TBTTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 029F40A6FCC3ED71427A6C850EE99BE0 /* TBTTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A34CE83B94FF979FBCF16911F9B10409 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC94178987CF7F90BCF7524A2DF88E3 /* UIView+Toast.m */; };
+		A47C6C93C8A6A253638DDC810EEB8336 /* TBTBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4374D3DC7AAF77E49C8E3A4973912C7 /* TBTBaseViewModel.m */; };
+		A63258A3967BA2F902F1C8973DCD3873 /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE1E56CA34F1C34AA462919D8D09F3 /* NSObject+AssociatedObject.m */; };
+		A83D98E14379E226BC630C2501C49553 /* TBTBaseRefreshHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B6BA31EF99DFA6C77C06ACB6404057 /* TBTBaseRefreshHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9155355446C9A9A62382FB97DD74C05 /* TBTTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 986D338B04869C66529BFC8978E46467 /* TBTTabBarController-dummy.m */; };
+		A995D8611773356A303955FA0AC5EBF3 /* TBTRefreshActivityAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D607F91240FA6EF4631A8CF12D96440 /* TBTRefreshActivityAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC65FCF453301C2740A238251DA3057 /* TBTTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C4BA6DB6D1BA72CAA60500EFCBC171 /* TBTTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF0D2243600C322015FA569EAADDEF2F /* TBTTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D06C69D09EC1B5AA9B730A05DE4930F /* TBTTabBarItem.m */; };
+		AFDD5F0D67DC45620AB2214EB1803BC0 /* TBTScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CD1BCBA15CCD6A7A9DF06A7B176979 /* TBTScrollView.m */; };
+		B345F655DD9CF9D1A129B141E2EEEDAF /* UIButton+TBTTimerBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E0BDEF933E0180AE28A300BEF2BC18 /* UIButton+TBTTimerBtn.m */; };
+		BC8ABFC68866EE0530C7482BF213CFFC /* TBTLoadMoreFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6081E407B2D8D8B1DB11C07C839545 /* TBTLoadMoreFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD3DA8A6E50CC8AEB5D687CAA2DF6AB9 /* TBTAlertViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD792844FCDAC5860D75435DDBEC0F9 /* TBTAlertViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC382294CF5662E2EBD34E02C509A2E /* TBTCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FAE9F89C0EA8F1C6260B828A04B306 /* TBTCollectionView.m */; };
+		C0DFB267DDF738BEBF020CB168D5557A /* TBTBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7072FDBC06C8C573737C0AD50A7FC3FC /* TBTBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C108889BF8A611ABE239EBC88E61CAAB /* TBTUIImageExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CC24F867E753EDD36A3499B8A93B6DC9 /* TBTUIImageExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C41BC9E950DF6557A6D5B1928F1C217E /* TBTUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C66B4C11CE1925611E9AE46439D0CC /* TBTUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C41E563EA2F0D41A159278AEA05231A7 /* UIImage+Blur.h in Headers */ = {isa = PBXBuildFile; fileRef = 22348FD12E425EBF87BEFB20E8743435 /* UIImage+Blur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C565F844EE2B2D52DEF9417719A3B720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C5C353FA6D393110CF23BB99DCACDD33 /* TBTRefreshHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 923A7B6551D21BC2D2A48640AFB97DE6 /* TBTRefreshHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C618ED412F4241DF9506E963A7802325 /* TBTUIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6005D8080DC71054CF9E04735A3EFC /* TBTUIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C841310A2A706F7C875CED8902E9121F /* TBTAlertViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79383AC9046977A9CEFB701D393307 /* TBTAlertViewItem.m */; };
+		C9CA93DA6FACEBCE6120E89D58D92D6D /* TBTNSObjectExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C8980176EF69EB62BC732652DAEBE5D1 /* TBTNSObjectExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9EB20A8253F91625D23B7348EA3FF3C /* TBTNSObjectExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FBC2647D4262A98A16F0E3BE98A314 /* TBTNSObjectExtension.m */; };
+		CE6DA5A94830437292D07E94B8749342 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B79CD0B01639E6D310E249FAC261B72 /* UIImage+Blur.m */; };
+		CECBF08479CC6AAAE41DD043B24EC8D7 /* NSDate+Utilites.h in Headers */ = {isa = PBXBuildFile; fileRef = CB01C9F3AF7F1C98EF2BEEB972BE743C /* NSDate+Utilites.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D073EBA8F31E13718B83885C96A7BB37 /* NSTimer+TBTSafeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1646C90922A10B5CAC9A00D3C565DCAB /* NSTimer+TBTSafeTimer.m */; };
+		D0CB049B8BFB411FD2F3BB98EDF598B1 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = D96C48364AA26A60F1FF2E2B7F59708A /* NSString+Size.m */; };
+		D131185C270E6C0968E0401292B9756F /* UIButton+HitBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 29317186C6DF2E95F5A087269C4DE576 /* UIButton+HitBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D249216069F84FBA12ED64435493E3EA /* TBTBaseNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 199A3C99381ED16F023F1349FC9E32C5 /* TBTBaseNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F7F51FA018C99EA2179EF6A16E3E7A /* TBTAlertConfigHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E77A15109B2ADE1AF273A94978F6B4D8 /* TBTAlertConfigHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB09E8208DCE2103A9C14D70B5C8E2C7 /* Pods-TBTUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 896A3CE0E230382FDF9097FA8DDC88A9 /* Pods-TBTUIKit_Example-dummy.m */; };
+		E0F850811E1D5B4E18E846D5D386986F /* CADisplayLink+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6B553306069FAA6DC51DA975416B30 /* CADisplayLink+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27C4A9F2148AC60B271D52F1390168E /* UIImage+Crop.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA2485E82063C91D3FE04404CB67B98 /* UIImage+Crop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4B17B7DB4DEEE6526FCD9F2C3FBF8FE /* UINavigationItem+TBTNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = EEED9BDEF6BB93A7E0EE1EFA875EB610 /* UINavigationItem+TBTNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5B51AB2A2585121E0BC83C050478F84 /* UIView+WalkSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7D5163071055E68253DB497CFA85C /* UIView+WalkSubview.m */; };
+		E63DC446D4562DAB17A39390445E1247 /* TBTBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B84D0B70A09B66BFC09C1F8B32FC65 /* TBTBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E806D57311DA0F5D82BF0DD8EA7C768E /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 382CFE0FB28B38F5891999F9F8C5DA0E /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E94614E488223DB9690E821BCD03D7CE /* TBTTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DF7DA4C18C77B3945A11698614C8BF /* TBTTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBE2ACE4DEFB5CCBF3C1E2FC539F5456 /* TBTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3643672DEC65A2DF69E25FB085CA6AE8 /* TBTBaseViewController.m */; };
+		F13A2E40FC5DE73A54508C7E88A28498 /* TBTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 857E203D269F2B6D961BE04857E257A7 /* TBTTableView.m */; };
+		F3981E788813DD5887B2D7DAEE717167 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AD245AFE73EC1A6F45FBE3677E173E /* UIColor+Hex.m */; };
+		F5D977AE24CD8ED41F3DF816BEC24ADD /* UIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1B7E24CAD5F6EA46B2A2CFC2345B47 /* UIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5FC7FA6BA539C0756DBDA0D76F8E851 /* UIImage+TextWaterMark.h in Headers */ = {isa = PBXBuildFile; fileRef = C9ABEBEEDBF1FCBCFC58C2EF88DFE837 /* UIImage+TextWaterMark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F634FF80F5A3C0B9B4283406F46C5B73 /* UIImage+TextWaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A17B816E9BC36ED1346AFADBBA90CE7 /* UIImage+TextWaterMark.m */; };
+		FAB9835BE79EB16C90653FAF612E5521 /* TBTTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05FBCF09F2EDC58F08321B83E30882C4 /* TBTTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC5858A7D96836E24CC3995E8519D247 /* Pods-TBTUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 330C9315D622243C8BECFF82B2AE822D /* Pods-TBTUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFC5ED1AA061AAD0BE3146D4EED503D /* TBTRefreshActivityAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F944898EF1340E707B8C4E99C42E7B /* TBTRefreshActivityAnimationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DB8FC9EAA84269BC363FB35B2DC4547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C2C2CE546259EE7E2A8E9B64B992D1;
+			remoteInfo = TBTTabBarController;
+		};
+		2DBE82E0F91573FF0A94A767C6B6DBDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F366E850E6195AAD110FFDA655E578F;
+			remoteInfo = TBTUIKit;
+		};
+		48C586B3611356DCC5D71E2A58528B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C98BB95028CD570E41647F91EBD06B6;
+			remoteInfo = "Pods-TBTUIKit_Example";
+		};
+		EF5762A0D822B7A454870D3F3B6FD55A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C2C2CE546259EE7E2A8E9B64B992D1;
+			remoteInfo = TBTTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029F40A6FCC3ED71427A6C850EE99BE0 /* TBTTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTTableView.h; path = TBTUIKit/Classes/Widget/TBTTableView.h; sourceTree = "<group>"; };
+		05FBCF09F2EDC58F08321B83E30882C4 /* TBTTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBTTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		0C66FF6AF14522E628AA8E057548EE29 /* UIImage+Stretch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Stretch.h"; path = "TBTUIKit/Classes/Category/UIImage+Stretch.h"; sourceTree = "<group>"; };
+		0E4449D5E208A40C81DC8C9C566F2BF9 /* UIImage+TBTBundleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TBTBundleImage.m"; path = "TBTUIKit/Classes/Category/UIImage+TBTBundleImage.m"; sourceTree = "<group>"; };
+		0F05E0E78D8B9614A9A351305DB7B789 /* UIDevice+Utilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Utilities.m"; path = "TBTUIKit/Classes/Category/UIDevice+Utilities.m"; sourceTree = "<group>"; };
+		112A7A0E60C9291455E20A3ACEF331EC /* Pods-TBTUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBTUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		15C4BA6DB6D1BA72CAA60500EFCBC171 /* TBTTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTTabBarItem.h; path = TBTTabBarController/Classes/TBTTabBarItem.h; sourceTree = "<group>"; };
+		1646C90922A10B5CAC9A00D3C565DCAB /* NSTimer+TBTSafeTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+TBTSafeTimer.m"; path = "TBTUIKit/Classes/Category/NSTimer+TBTSafeTimer.m"; sourceTree = "<group>"; };
+		16F86F4A7F620EA2C9CACE9354ECBAE4 /* TBTUIImageExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTUIImageExtension.m; path = TBTUIKit/Classes/Category/TBTUIImageExtension.m; sourceTree = "<group>"; };
+		16FAE9F89C0EA8F1C6260B828A04B306 /* TBTCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTCollectionView.m; path = TBTUIKit/Classes/Widget/TBTCollectionView.m; sourceTree = "<group>"; };
+		19434AD19B59ED013DB967F1D818FB76 /* TBTTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBTTabBarController.modulemap; sourceTree = "<group>"; };
+		198EC7B84CE87F3A5C9637B348241DF0 /* TBTBaseNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTBaseNavigationViewController.m; path = TBTUIKit/Classes/BaseClass/TBTBaseNavigationViewController.m; sourceTree = "<group>"; };
+		199A3C99381ED16F023F1349FC9E32C5 /* TBTBaseNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTBaseNavigationViewController.h; path = TBTUIKit/Classes/BaseClass/TBTBaseNavigationViewController.h; sourceTree = "<group>"; };
+		1BD792844FCDAC5860D75435DDBEC0F9 /* TBTAlertViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTAlertViewItem.h; path = TBTUIKit/Classes/BaseClass/TBTAlertViewItem.h; sourceTree = "<group>"; };
+		1C3627A512455C61F070804903ADD440 /* Pods-TBTUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBTUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1D4C8D7F3FCCBD206EC62C6D225328C5 /* UIButton+TBTTimerBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TBTTimerBtn.h"; path = "TBTUIKit/Classes/Category/UIButton+TBTTimerBtn.h"; sourceTree = "<group>"; };
+		1DF381FE8116B67855D5193F956A57E5 /* Pods-TBTUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBTUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FCD368A96D5ED14D372C8F5EBC98DD4 /* TBTUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TBTUIKit-Info.plist"; sourceTree = "<group>"; };
+		1FD56866E23AB4A779F44E44930123D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		206F89D59DD8FB256DA3F3749BDEC2A1 /* TBTUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBTUIKit-prefix.pch"; sourceTree = "<group>"; };
+		22348FD12E425EBF87BEFB20E8743435 /* UIImage+Blur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Blur.h"; path = "TBTUIKit/Classes/Category/UIImage+Blur.h"; sourceTree = "<group>"; };
+		22BA6B1F9EF414954C065BC609D148C9 /* MacroHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacroHeader.h; path = TBTUIKit/Classes/MacroHeader/MacroHeader.h; sourceTree = "<group>"; };
+		29317186C6DF2E95F5A087269C4DE576 /* UIButton+HitBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+HitBounds.h"; path = "TBTUIKit/Classes/Category/UIButton+HitBounds.h"; sourceTree = "<group>"; };
+		2BA2485E82063C91D3FE04404CB67B98 /* UIImage+Crop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Crop.h"; path = "TBTUIKit/Classes/Category/UIImage+Crop.h"; sourceTree = "<group>"; };
+		2C5A6AD41D3C079D19DB1633B14760B5 /* TBTLoadMoreFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTLoadMoreFooterView.m; path = TBTUIKit/Classes/Widget/TBTLoadMoreFooterView.m; sourceTree = "<group>"; };
+		2EDE2C36D8F049C12CF490B7F0161251 /* Pods-TBTUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBTUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		330C9315D622243C8BECFF82B2AE822D /* Pods-TBTUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBTUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		335D7F301488F7D91A37E146AB9B949E /* Pods-TBTUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBTUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		3643672DEC65A2DF69E25FB085CA6AE8 /* TBTBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTBaseViewController.m; path = TBTUIKit/Classes/BaseClass/TBTBaseViewController.m; sourceTree = "<group>"; };
+		382CFE0FB28B38F5891999F9F8C5DA0E /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "TBTUIKit/Classes/Category/UIView+Toast.h"; sourceTree = "<group>"; };
+		3A17B816E9BC36ED1346AFADBBA90CE7 /* UIImage+TextWaterMark.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TextWaterMark.m"; path = "TBTUIKit/Classes/Category/UIImage+TextWaterMark.m"; sourceTree = "<group>"; };
+		3A859B3EF2C2D4F4A7620205478FE37B /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "TBTUIKit/Classes/Category/UIColor+Hex.h"; sourceTree = "<group>"; };
+		3AB13E2E62549CD13AE8CE8FD0784C38 /* NSString+Size.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Size.h"; path = "TBTUIKit/Classes/Category/NSString+Size.h"; sourceTree = "<group>"; };
+		3D06C69D09EC1B5AA9B730A05DE4930F /* TBTTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTTabBarItem.m; path = TBTTabBarController/Classes/TBTTabBarItem.m; sourceTree = "<group>"; };
+		3D607F91240FA6EF4631A8CF12D96440 /* TBTRefreshActivityAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTRefreshActivityAnimationView.h; path = TBTUIKit/Classes/Widget/TBTRefreshActivityAnimationView.h; sourceTree = "<group>"; };
+		3D6081E407B2D8D8B1DB11C07C839545 /* TBTLoadMoreFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTLoadMoreFooterView.h; path = TBTUIKit/Classes/Widget/TBTLoadMoreFooterView.h; sourceTree = "<group>"; };
+		45B84D0B70A09B66BFC09C1F8B32FC65 /* TBTBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTBaseModel.h; path = TBTUIKit/Classes/BaseClass/TBTBaseModel.h; sourceTree = "<group>"; };
+		48D2043033C0B4CBD1534797963B5ED6 /* TBTTabBarController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TBTTabBarController; path = TBTTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEB6560B7B579CA66BDD03D915C73E2 /* TBTUIFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTUIFont.m; path = TBTUIKit/Classes/UITool/TBTUIFont.m; sourceTree = "<group>"; };
+		4B1B7E24CAD5F6EA46B2A2CFC2345B47 /* UIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+Additions.h"; path = "TBTUIKit/Classes/Category/UIScrollView+Additions.h"; sourceTree = "<group>"; };
+		4B6005D8080DC71054CF9E04735A3EFC /* TBTUIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTUIColor.h; path = TBTUIKit/Classes/UITool/TBTUIColor.h; sourceTree = "<group>"; };
+		4B6228FB24BE5DF75D8C6406C8812563 /* UIImage+TBTBundleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TBTBundleImage.h"; path = "TBTUIKit/Classes/Category/UIImage+TBTBundleImage.h"; sourceTree = "<group>"; };
+		4B79CD0B01639E6D310E249FAC261B72 /* UIImage+Blur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Blur.m"; path = "TBTUIKit/Classes/Category/UIImage+Blur.m"; sourceTree = "<group>"; };
+		4C9EDA652E16038E24A9D4DAF383BD11 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "TBTUIKit/Classes/Category/NSString+Extension.h"; sourceTree = "<group>"; };
+		4D79383AC9046977A9CEFB701D393307 /* TBTAlertViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTAlertViewItem.m; path = TBTUIKit/Classes/BaseClass/TBTAlertViewItem.m; sourceTree = "<group>"; };
+		50B803F982D60831513A50D81C994934 /* UIView+TBTViewExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TBTViewExtension.h"; path = "TBTUIKit/Classes/Category/UIView+TBTViewExtension.h"; sourceTree = "<group>"; };
+		51A78D08495BE6FF8C6B975212CB49F9 /* Pods-TBTUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBTUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5659D75CB45214740812E2EEEFE8F1F2 /* TBTBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTBaseModel.m; path = TBTUIKit/Classes/BaseClass/TBTBaseModel.m; sourceTree = "<group>"; };
+		5872238F2A69C83B2A1F88B2684E89E1 /* TBTUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBTUIKit.modulemap; sourceTree = "<group>"; };
+		5FEAEAF11CAA77650E1ACC7D06EDE81F /* UIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+Additions.m"; path = "TBTUIKit/Classes/Category/UIScrollView+Additions.m"; sourceTree = "<group>"; };
+		68A5EDDB662CD945ADAAD2D6739A1F5D /* Pods-TBTUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBTUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		6D2CCEB6AD89677503FD5AE3473176D4 /* UIImage+Crop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Crop.m"; path = "TBTUIKit/Classes/Category/UIImage+Crop.m"; sourceTree = "<group>"; };
+		7072FDBC06C8C573737C0AD50A7FC3FC /* TBTBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTBaseViewController.h; path = TBTUIKit/Classes/BaseClass/TBTBaseViewController.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		784462E7F45DF5929049CC7599FEDD46 /* Pods-TBTUIKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TBTUIKit_Example"; path = Pods_TBTUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8CA33A2877C8F200820EC6 /* TBTUIPaddingConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TBTUIPaddingConfig.h; path = TBTUIKit/Classes/UITool/TBTUIPaddingConfig.h; sourceTree = "<group>"; };
+		7B8CA33B2877C8F200820EC6 /* TBTUIPaddingConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TBTUIPaddingConfig.m; path = TBTUIKit/Classes/UITool/TBTUIPaddingConfig.m; sourceTree = "<group>"; };
+		7F0C30D563FC817D94C260776BF92170 /* TBTScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTScrollView.h; path = TBTUIKit/Classes/Widget/TBTScrollView.h; sourceTree = "<group>"; };
+		81FCA670C89FE1031AFF0EE7FEC0980B /* Pods-TBTUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBTUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		84E649245AFB43F532416A851DC8BB73 /* TBTTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBTTabBarController.release.xcconfig; sourceTree = "<group>"; };
+		857E203D269F2B6D961BE04857E257A7 /* TBTTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTTableView.m; path = TBTUIKit/Classes/Widget/TBTTableView.m; sourceTree = "<group>"; };
+		85D94DA918E1CA54C69361B827452E21 /* Pods-TBTUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBTUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8960EB1664EA74F5EB89FD827F22B96F /* TBTUIColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTUIColor.m; path = TBTUIKit/Classes/UITool/TBTUIColor.m; sourceTree = "<group>"; };
+		896A3CE0E230382FDF9097FA8DDC88A9 /* Pods-TBTUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBTUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		8BFE1E56CA34F1C34AA462919D8D09F3 /* NSObject+AssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AssociatedObject.m"; path = "TBTUIKit/Classes/Category/NSObject+AssociatedObject.m"; sourceTree = "<group>"; };
+		8CC94178987CF7F90BCF7524A2DF88E3 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "TBTUIKit/Classes/Category/UIView+Toast.m"; sourceTree = "<group>"; };
+		91AA58259B78AA5ABD8CC54756CAA412 /* TBTRefreshHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTRefreshHeaderView.m; path = TBTUIKit/Classes/Widget/TBTRefreshHeaderView.m; sourceTree = "<group>"; };
+		923A7B6551D21BC2D2A48640AFB97DE6 /* TBTRefreshHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTRefreshHeaderView.h; path = TBTUIKit/Classes/Widget/TBTRefreshHeaderView.h; sourceTree = "<group>"; };
+		945FF2B89D4DFFD75E90B7D19072F13E /* TBTBaseAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTBaseAlertView.m; path = TBTUIKit/Classes/BaseClass/TBTBaseAlertView.m; sourceTree = "<group>"; };
+		96B6BA31EF99DFA6C77C06ACB6404057 /* TBTBaseRefreshHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTBaseRefreshHeaderView.h; path = TBTUIKit/Classes/BaseClass/TBTBaseRefreshHeaderView.h; sourceTree = "<group>"; };
+		96BA6030CDC55864A313850622FF8AAE /* NSDate+Utilites.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utilites.m"; path = "TBTUIKit/Classes/Category/NSDate+Utilites.m"; sourceTree = "<group>"; };
+		986D338B04869C66529BFC8978E46467 /* TBTTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBTTabBarController-dummy.m"; sourceTree = "<group>"; };
+		991E25C79C7DED7BEDF50E3A4E23C8EB /* UIView+TBTViewExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TBTViewExtension.m"; path = "TBTUIKit/Classes/Category/UIView+TBTViewExtension.m"; sourceTree = "<group>"; };
+		9A9B806667D91F35F4D3A30573E28A37 /* TBTTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTTabBar.m; path = TBTTabBarController/Classes/TBTTabBar.m; sourceTree = "<group>"; };
+		9ACFAA04DD7924A9D617B0EA89719122 /* UIImage+Stretch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Stretch.m"; path = "TBTUIKit/Classes/Category/UIImage+Stretch.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1E0198086BCECA7156156B8CC74642 /* TBTCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTCollectionView.h; path = TBTUIKit/Classes/Widget/TBTCollectionView.h; sourceTree = "<group>"; };
+		A192C756A68DA0A333A4B68C53DDC888 /* TBTTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTTabBarController.m; path = TBTTabBarController/Classes/TBTTabBarController.m; sourceTree = "<group>"; };
+		A4359062491C468443F36DDC6677B136 /* TBTTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TBTTabBarController-Info.plist"; sourceTree = "<group>"; };
+		AF74CCBAAD67BEFF4E60CE7679169C8E /* CADisplayLink+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CADisplayLink+Block.m"; path = "TBTUIKit/Classes/Category/CADisplayLink+Block.m"; sourceTree = "<group>"; };
+		AFB7D5163071055E68253DB497CFA85C /* UIView+WalkSubview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WalkSubview.m"; path = "TBTUIKit/Classes/Category/UIView+WalkSubview.m"; sourceTree = "<group>"; };
+		B0CD1BCBA15CCD6A7A9DF06A7B176979 /* TBTScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTScrollView.m; path = TBTUIKit/Classes/Widget/TBTScrollView.m; sourceTree = "<group>"; };
+		B1F4FB855B7A75AFB201298D546E4EA8 /* TBTTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBTTabBarController.debug.xcconfig; sourceTree = "<group>"; };
+		B4374D3DC7AAF77E49C8E3A4973912C7 /* TBTBaseViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTBaseViewModel.m; path = TBTUIKit/Classes/BaseClass/TBTBaseViewModel.m; sourceTree = "<group>"; };
+		B6C66B4C11CE1925611E9AE46439D0CC /* TBTUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBTUIKit-umbrella.h"; sourceTree = "<group>"; };
+		B7E0BDEF933E0180AE28A300BEF2BC18 /* UIButton+TBTTimerBtn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TBTTimerBtn.m"; path = "TBTUIKit/Classes/Category/UIButton+TBTTimerBtn.m"; sourceTree = "<group>"; };
+		B808856320B2F0223A1164CCE48C21D7 /* TBTTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBTTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		BD9E1C82A7E173C52D2ABE3558BC7BA8 /* TBTAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTAlertView.h; path = TBTUIKit/Classes/BaseClass/TBTAlertView.h; sourceTree = "<group>"; };
+		C082F3FC20037954CD54112BF471CFD5 /* TBTTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTTabBarController.h; path = TBTTabBarController/Classes/TBTTabBarController.h; sourceTree = "<group>"; };
+		C153AC6E1536A8E5E1E412490DB3AEE7 /* TBTUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TBTUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1C2BD58C7C36763F0A05AA6AFE7202A /* TBTAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTAlertView.m; path = TBTUIKit/Classes/BaseClass/TBTAlertView.m; sourceTree = "<group>"; };
+		C3F321E7D760B53301C23E5A4F6A864E /* TBTUIFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTUIFont.h; path = TBTUIKit/Classes/UITool/TBTUIFont.h; sourceTree = "<group>"; };
+		C4F944898EF1340E707B8C4E99C42E7B /* TBTRefreshActivityAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTRefreshActivityAnimationView.m; path = TBTUIKit/Classes/Widget/TBTRefreshActivityAnimationView.m; sourceTree = "<group>"; };
+		C53C4E553CC962625041180B287CEA5E /* Pods-TBTUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBTUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		C7AD245AFE73EC1A6F45FBE3677E173E /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "TBTUIKit/Classes/Category/UIColor+Hex.m"; sourceTree = "<group>"; };
+		C82523922BF656B1221E904DCEE0C495 /* Pods-TBTUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBTUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C86D0F3DF2669D06A88011841E1DAC81 /* Pods-TBTUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBTUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C8980176EF69EB62BC732652DAEBE5D1 /* TBTNSObjectExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTNSObjectExtension.h; path = TBTUIKit/Classes/UITool/TBTNSObjectExtension.h; sourceTree = "<group>"; };
+		C9ABEBEEDBF1FCBCFC58C2EF88DFE837 /* UIImage+TextWaterMark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TextWaterMark.h"; path = "TBTUIKit/Classes/Category/UIImage+TextWaterMark.h"; sourceTree = "<group>"; };
+		CB01C9F3AF7F1C98EF2BEEB972BE743C /* NSDate+Utilites.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utilites.h"; path = "TBTUIKit/Classes/Category/NSDate+Utilites.h"; sourceTree = "<group>"; };
+		CBD302C6754986150084F72C604945F1 /* TBTUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBTUIKit.release.xcconfig; sourceTree = "<group>"; };
+		CBFCD71BE14A5EE9E14A12BE49AE81DD /* UINavigationItem+TBTNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+TBTNavigation.m"; path = "TBTUIKit/Classes/Category/UINavigationItem+TBTNavigation.m"; sourceTree = "<group>"; };
+		CC24F867E753EDD36A3499B8A93B6DC9 /* TBTUIImageExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTUIImageExtension.h; path = TBTUIKit/Classes/Category/TBTUIImageExtension.h; sourceTree = "<group>"; };
+		D7FB50FD8503055F95817928E188C3F3 /* TBTBaseAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTBaseAlertView.h; path = TBTUIKit/Classes/BaseClass/TBTBaseAlertView.h; sourceTree = "<group>"; };
+		D84D5578D837E366A7294AB85FE13B38 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "TBTUIKit/Classes/Category/NSString+Extension.m"; sourceTree = "<group>"; };
+		D8FBC2647D4262A98A16F0E3BE98A314 /* TBTNSObjectExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTNSObjectExtension.m; path = TBTUIKit/Classes/UITool/TBTNSObjectExtension.m; sourceTree = "<group>"; };
+		D94A779E72E4D7C8D4CECDB9FCB4A1FF /* UIView+WalkSubview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WalkSubview.h"; path = "TBTUIKit/Classes/Category/UIView+WalkSubview.h"; sourceTree = "<group>"; };
+		D96C48364AA26A60F1FF2E2B7F59708A /* NSString+Size.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Size.m"; path = "TBTUIKit/Classes/Category/NSString+Size.m"; sourceTree = "<group>"; };
+		DA81A3F5574059B101FE54B7AA176719 /* Pods-TBTUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBTUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		DCD8835CB1929B2FCA21AA7ABBBD7895 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DEE2C3D1301C93779263E5028C3D8D11 /* UIDevice+Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Utilities.h"; path = "TBTUIKit/Classes/Category/UIDevice+Utilities.h"; sourceTree = "<group>"; };
+		DEED7F0636243EA44A34874BDC761C87 /* Pods-TBTUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBTUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E03EB4D52383BC0B6CA254D66B42721A /* TBTBaseViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTBaseViewModel.h; path = TBTUIKit/Classes/BaseClass/TBTBaseViewModel.h; sourceTree = "<group>"; };
+		E1E5128AB20FFBB58047E4E5B43C99E4 /* NSObject+AssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AssociatedObject.h"; path = "TBTUIKit/Classes/Category/NSObject+AssociatedObject.h"; sourceTree = "<group>"; };
+		E387043BE00557F9581C75C60808BB1A /* TBTBaseRefreshHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTBaseRefreshHeaderView.m; path = TBTUIKit/Classes/BaseClass/TBTBaseRefreshHeaderView.m; sourceTree = "<group>"; };
+		E77A15109B2ADE1AF273A94978F6B4D8 /* TBTAlertConfigHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTAlertConfigHeader.h; path = TBTUIKit/Classes/MacroHeader/TBTAlertConfigHeader.h; sourceTree = "<group>"; };
+		E9DF7DA4C18C77B3945A11698614C8BF /* TBTTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTTabBar.h; path = TBTTabBarController/Classes/TBTTabBar.h; sourceTree = "<group>"; };
+		EA6B553306069FAA6DC51DA975416B30 /* CADisplayLink+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CADisplayLink+Block.h"; path = "TBTUIKit/Classes/Category/CADisplayLink+Block.h"; sourceTree = "<group>"; };
+		EEED9BDEF6BB93A7E0EE1EFA875EB610 /* UINavigationItem+TBTNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+TBTNavigation.h"; path = "TBTUIKit/Classes/Category/UINavigationItem+TBTNavigation.h"; sourceTree = "<group>"; };
+		EFA4313598997033DA1DF2D40B247681 /* TBTUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBTUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D916F4C3DD732CBCF414ECC93EE830 /* TBTUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBTUIKit-dummy.m"; sourceTree = "<group>"; };
+		F1DE8F9D291EB7A6C5C8877B463AB6CD /* Pods-TBTUIKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TBTUIKit_Tests"; path = Pods_TBTUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A4439FABFD95B88E1F6C384A1F8C63 /* UIButton+HitBounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+HitBounds.m"; path = "TBTUIKit/Classes/Category/UIButton+HitBounds.m"; sourceTree = "<group>"; };
+		F63CA2043385D944D26AD20739D93FEE /* NSTimer+TBTSafeTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+TBTSafeTimer.h"; path = "TBTUIKit/Classes/Category/NSTimer+TBTSafeTimer.h"; sourceTree = "<group>"; };
+		F888B892E0DBF3DD9437C4A5965E0B29 /* Pods-TBTUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBTUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		FDEA4548064675F3C4118D648C330FC4 /* TBTUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBTUIKit.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33870D76FF9FAC41CBC163BCC923B2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988998CDBBFD446BA6D22FBB8388FFF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB53987E4DF15ADCE4DCB1606D10FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124F306C744394FA3754FFDED2501069 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54D90E481E70B284A20D8F448BCDDE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C565F844EE2B2D52DEF9417719A3B720 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE38A9D717700C8246386C817CFBA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942511D0BB90153B37D0B34D224251B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DBED6FE322BE18B480CFACA1BB69B4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DCD8835CB1929B2FCA21AA7ABBBD7895 /* LICENSE */,
+				1FD56866E23AB4A779F44E44930123D5 /* README.md */,
+				C153AC6E1536A8E5E1E412490DB3AEE7 /* TBTUIKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1E3278A009C7D5CB0279D46E023D195A /* TBTTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E9DF7DA4C18C77B3945A11698614C8BF /* TBTTabBar.h */,
+				9A9B806667D91F35F4D3A30573E28A37 /* TBTTabBar.m */,
+				C082F3FC20037954CD54112BF471CFD5 /* TBTTabBarController.h */,
+				A192C756A68DA0A333A4B68C53DDC888 /* TBTTabBarController.m */,
+				15C4BA6DB6D1BA72CAA60500EFCBC171 /* TBTTabBarItem.h */,
+				3D06C69D09EC1B5AA9B730A05DE4930F /* TBTTabBarItem.m */,
+				70E7FC2E8590BB30CB8C0CADFF8286AA /* Support Files */,
+			);
+			path = TBTTabBarController;
+			sourceTree = "<group>";
+		};
+		2AC25C7044F68EE77176C6A5010563E0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FEA99402271390A10A187B8DBEE5065 /* TBTUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2AED5045E1F672983DFA2C65FD8F0C99 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				9E1E0198086BCECA7156156B8CC74642 /* TBTCollectionView.h */,
+				16FAE9F89C0EA8F1C6260B828A04B306 /* TBTCollectionView.m */,
+				3D6081E407B2D8D8B1DB11C07C839545 /* TBTLoadMoreFooterView.h */,
+				2C5A6AD41D3C079D19DB1633B14760B5 /* TBTLoadMoreFooterView.m */,
+				3D607F91240FA6EF4631A8CF12D96440 /* TBTRefreshActivityAnimationView.h */,
+				C4F944898EF1340E707B8C4E99C42E7B /* TBTRefreshActivityAnimationView.m */,
+				923A7B6551D21BC2D2A48640AFB97DE6 /* TBTRefreshHeaderView.h */,
+				91AA58259B78AA5ABD8CC54756CAA412 /* TBTRefreshHeaderView.m */,
+				7F0C30D563FC817D94C260776BF92170 /* TBTScrollView.h */,
+				B0CD1BCBA15CCD6A7A9DF06A7B176979 /* TBTScrollView.m */,
+				029F40A6FCC3ED71427A6C850EE99BE0 /* TBTTableView.h */,
+				857E203D269F2B6D961BE04857E257A7 /* TBTTableView.m */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		31BAE9D1F28DD1492124B3860906D2E1 /* Pods-TBTUIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2EDE2C36D8F049C12CF490B7F0161251 /* Pods-TBTUIKit_Tests.modulemap */,
+				C82523922BF656B1221E904DCEE0C495 /* Pods-TBTUIKit_Tests-acknowledgements.markdown */,
+				1DF381FE8116B67855D5193F956A57E5 /* Pods-TBTUIKit_Tests-acknowledgements.plist */,
+				C53C4E553CC962625041180B287CEA5E /* Pods-TBTUIKit_Tests-dummy.m */,
+				F888B892E0DBF3DD9437C4A5965E0B29 /* Pods-TBTUIKit_Tests-Info.plist */,
+				330C9315D622243C8BECFF82B2AE822D /* Pods-TBTUIKit_Tests-umbrella.h */,
+				85D94DA918E1CA54C69361B827452E21 /* Pods-TBTUIKit_Tests.debug.xcconfig */,
+				112A7A0E60C9291455E20A3ACEF331EC /* Pods-TBTUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-TBTUIKit_Tests";
+			path = "Target Support Files/Pods-TBTUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		5566A42F9B51546526E1D5BB793A736A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55EB7668D028A40E1C135D67357D1877 /* Pods-TBTUIKit_Example */,
+				31BAE9D1F28DD1492124B3860906D2E1 /* Pods-TBTUIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55EB7668D028A40E1C135D67357D1877 /* Pods-TBTUIKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				68A5EDDB662CD945ADAAD2D6739A1F5D /* Pods-TBTUIKit_Example.modulemap */,
+				DEED7F0636243EA44A34874BDC761C87 /* Pods-TBTUIKit_Example-acknowledgements.markdown */,
+				81FCA670C89FE1031AFF0EE7FEC0980B /* Pods-TBTUIKit_Example-acknowledgements.plist */,
+				896A3CE0E230382FDF9097FA8DDC88A9 /* Pods-TBTUIKit_Example-dummy.m */,
+				C86D0F3DF2669D06A88011841E1DAC81 /* Pods-TBTUIKit_Example-frameworks.sh */,
+				DA81A3F5574059B101FE54B7AA176719 /* Pods-TBTUIKit_Example-Info.plist */,
+				335D7F301488F7D91A37E146AB9B949E /* Pods-TBTUIKit_Example-umbrella.h */,
+				51A78D08495BE6FF8C6B975212CB49F9 /* Pods-TBTUIKit_Example.debug.xcconfig */,
+				1C3627A512455C61F070804903ADD440 /* Pods-TBTUIKit_Example.release.xcconfig */,
+			);
+			name = "Pods-TBTUIKit_Example";
+			path = "Target Support Files/Pods-TBTUIKit_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		70E7FC2E8590BB30CB8C0CADFF8286AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19434AD19B59ED013DB967F1D818FB76 /* TBTTabBarController.modulemap */,
+				986D338B04869C66529BFC8978E46467 /* TBTTabBarController-dummy.m */,
+				A4359062491C468443F36DDC6677B136 /* TBTTabBarController-Info.plist */,
+				B808856320B2F0223A1164CCE48C21D7 /* TBTTabBarController-prefix.pch */,
+				05FBCF09F2EDC58F08321B83E30882C4 /* TBTTabBarController-umbrella.h */,
+				B1F4FB855B7A75AFB201298D546E4EA8 /* TBTTabBarController.debug.xcconfig */,
+				84E649245AFB43F532416A851DC8BB73 /* TBTTabBarController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TBTTabBarController";
+			sourceTree = "<group>";
+		};
+		8FEA99402271390A10A187B8DBEE5065 /* TBTUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EAB90BE25C6590357C09993AC4963184 /* BaseClass */,
+				ABE188DD49160554F68097E7081C12D8 /* Category */,
+				DB6389029678717E1A1E28E434EEB6E7 /* MacroHeader */,
+				05DBED6FE322BE18B480CFACA1BB69B4 /* Pod */,
+				C9D95C94CFEAEB607128757C3DAD9850 /* Support Files */,
+				EB7669E2D46A0CCDAA21092CDE46950A /* UITool */,
+				2AED5045E1F672983DFA2C65FD8F0C99 /* Widget */,
+			);
+			name = TBTUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9EC8CB4677D24DF374FD57C780FDF34B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E3278A009C7D5CB0279D46E023D195A /* TBTTabBarController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABE188DD49160554F68097E7081C12D8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B553306069FAA6DC51DA975416B30 /* CADisplayLink+Block.h */,
+				AF74CCBAAD67BEFF4E60CE7679169C8E /* CADisplayLink+Block.m */,
+				CB01C9F3AF7F1C98EF2BEEB972BE743C /* NSDate+Utilites.h */,
+				96BA6030CDC55864A313850622FF8AAE /* NSDate+Utilites.m */,
+				E1E5128AB20FFBB58047E4E5B43C99E4 /* NSObject+AssociatedObject.h */,
+				8BFE1E56CA34F1C34AA462919D8D09F3 /* NSObject+AssociatedObject.m */,
+				4C9EDA652E16038E24A9D4DAF383BD11 /* NSString+Extension.h */,
+				D84D5578D837E366A7294AB85FE13B38 /* NSString+Extension.m */,
+				3AB13E2E62549CD13AE8CE8FD0784C38 /* NSString+Size.h */,
+				D96C48364AA26A60F1FF2E2B7F59708A /* NSString+Size.m */,
+				F63CA2043385D944D26AD20739D93FEE /* NSTimer+TBTSafeTimer.h */,
+				1646C90922A10B5CAC9A00D3C565DCAB /* NSTimer+TBTSafeTimer.m */,
+				CC24F867E753EDD36A3499B8A93B6DC9 /* TBTUIImageExtension.h */,
+				16F86F4A7F620EA2C9CACE9354ECBAE4 /* TBTUIImageExtension.m */,
+				29317186C6DF2E95F5A087269C4DE576 /* UIButton+HitBounds.h */,
+				F3A4439FABFD95B88E1F6C384A1F8C63 /* UIButton+HitBounds.m */,
+				1D4C8D7F3FCCBD206EC62C6D225328C5 /* UIButton+TBTTimerBtn.h */,
+				B7E0BDEF933E0180AE28A300BEF2BC18 /* UIButton+TBTTimerBtn.m */,
+				3A859B3EF2C2D4F4A7620205478FE37B /* UIColor+Hex.h */,
+				C7AD245AFE73EC1A6F45FBE3677E173E /* UIColor+Hex.m */,
+				DEE2C3D1301C93779263E5028C3D8D11 /* UIDevice+Utilities.h */,
+				0F05E0E78D8B9614A9A351305DB7B789 /* UIDevice+Utilities.m */,
+				22348FD12E425EBF87BEFB20E8743435 /* UIImage+Blur.h */,
+				4B79CD0B01639E6D310E249FAC261B72 /* UIImage+Blur.m */,
+				2BA2485E82063C91D3FE04404CB67B98 /* UIImage+Crop.h */,
+				6D2CCEB6AD89677503FD5AE3473176D4 /* UIImage+Crop.m */,
+				0C66FF6AF14522E628AA8E057548EE29 /* UIImage+Stretch.h */,
+				9ACFAA04DD7924A9D617B0EA89719122 /* UIImage+Stretch.m */,
+				4B6228FB24BE5DF75D8C6406C8812563 /* UIImage+TBTBundleImage.h */,
+				0E4449D5E208A40C81DC8C9C566F2BF9 /* UIImage+TBTBundleImage.m */,
+				C9ABEBEEDBF1FCBCFC58C2EF88DFE837 /* UIImage+TextWaterMark.h */,
+				3A17B816E9BC36ED1346AFADBBA90CE7 /* UIImage+TextWaterMark.m */,
+				EEED9BDEF6BB93A7E0EE1EFA875EB610 /* UINavigationItem+TBTNavigation.h */,
+				CBFCD71BE14A5EE9E14A12BE49AE81DD /* UINavigationItem+TBTNavigation.m */,
+				4B1B7E24CAD5F6EA46B2A2CFC2345B47 /* UIScrollView+Additions.h */,
+				5FEAEAF11CAA77650E1ACC7D06EDE81F /* UIScrollView+Additions.m */,
+				50B803F982D60831513A50D81C994934 /* UIView+TBTViewExtension.h */,
+				991E25C79C7DED7BEDF50E3A4E23C8EB /* UIView+TBTViewExtension.m */,
+				382CFE0FB28B38F5891999F9F8C5DA0E /* UIView+Toast.h */,
+				8CC94178987CF7F90BCF7524A2DF88E3 /* UIView+Toast.m */,
+				D94A779E72E4D7C8D4CECDB9FCB4A1FF /* UIView+WalkSubview.h */,
+				AFB7D5163071055E68253DB497CFA85C /* UIView+WalkSubview.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		B9FD2B498CBE9DABD88CFE34F292A2CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				784462E7F45DF5929049CC7599FEDD46 /* Pods-TBTUIKit_Example */,
+				F1DE8F9D291EB7A6C5C8877B463AB6CD /* Pods-TBTUIKit_Tests */,
+				48D2043033C0B4CBD1534797963B5ED6 /* TBTTabBarController */,
+				EFA4313598997033DA1DF2D40B247681 /* TBTUIKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9D95C94CFEAEB607128757C3DAD9850 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5872238F2A69C83B2A1F88B2684E89E1 /* TBTUIKit.modulemap */,
+				F1D916F4C3DD732CBCF414ECC93EE830 /* TBTUIKit-dummy.m */,
+				1FCD368A96D5ED14D372C8F5EBC98DD4 /* TBTUIKit-Info.plist */,
+				206F89D59DD8FB256DA3F3749BDEC2A1 /* TBTUIKit-prefix.pch */,
+				B6C66B4C11CE1925611E9AE46439D0CC /* TBTUIKit-umbrella.h */,
+				FDEA4548064675F3C4118D648C330FC4 /* TBTUIKit.debug.xcconfig */,
+				CBD302C6754986150084F72C604945F1 /* TBTUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TBTUIKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2AC25C7044F68EE77176C6A5010563E0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9EC8CB4677D24DF374FD57C780FDF34B /* Pods */,
+				B9FD2B498CBE9DABD88CFE34F292A2CC /* Products */,
+				5566A42F9B51546526E1D5BB793A736A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB6389029678717E1A1E28E434EEB6E7 /* MacroHeader */ = {
+			isa = PBXGroup;
+			children = (
+				22BA6B1F9EF414954C065BC609D148C9 /* MacroHeader.h */,
+				E77A15109B2ADE1AF273A94978F6B4D8 /* TBTAlertConfigHeader.h */,
+			);
+			name = MacroHeader;
+			sourceTree = "<group>";
+		};
+		EAB90BE25C6590357C09993AC4963184 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				BD9E1C82A7E173C52D2ABE3558BC7BA8 /* TBTAlertView.h */,
+				C1C2BD58C7C36763F0A05AA6AFE7202A /* TBTAlertView.m */,
+				1BD792844FCDAC5860D75435DDBEC0F9 /* TBTAlertViewItem.h */,
+				4D79383AC9046977A9CEFB701D393307 /* TBTAlertViewItem.m */,
+				D7FB50FD8503055F95817928E188C3F3 /* TBTBaseAlertView.h */,
+				945FF2B89D4DFFD75E90B7D19072F13E /* TBTBaseAlertView.m */,
+				45B84D0B70A09B66BFC09C1F8B32FC65 /* TBTBaseModel.h */,
+				5659D75CB45214740812E2EEEFE8F1F2 /* TBTBaseModel.m */,
+				199A3C99381ED16F023F1349FC9E32C5 /* TBTBaseNavigationViewController.h */,
+				198EC7B84CE87F3A5C9637B348241DF0 /* TBTBaseNavigationViewController.m */,
+				96B6BA31EF99DFA6C77C06ACB6404057 /* TBTBaseRefreshHeaderView.h */,
+				E387043BE00557F9581C75C60808BB1A /* TBTBaseRefreshHeaderView.m */,
+				7072FDBC06C8C573737C0AD50A7FC3FC /* TBTBaseViewController.h */,
+				3643672DEC65A2DF69E25FB085CA6AE8 /* TBTBaseViewController.m */,
+				E03EB4D52383BC0B6CA254D66B42721A /* TBTBaseViewModel.h */,
+				B4374D3DC7AAF77E49C8E3A4973912C7 /* TBTBaseViewModel.m */,
+			);
+			name = BaseClass;
+			sourceTree = "<group>";
+		};
+		EB7669E2D46A0CCDAA21092CDE46950A /* UITool */ = {
+			isa = PBXGroup;
+			children = (
+				C8980176EF69EB62BC732652DAEBE5D1 /* TBTNSObjectExtension.h */,
+				D8FBC2647D4262A98A16F0E3BE98A314 /* TBTNSObjectExtension.m */,
+				4B6005D8080DC71054CF9E04735A3EFC /* TBTUIColor.h */,
+				8960EB1664EA74F5EB89FD827F22B96F /* TBTUIColor.m */,
+				C3F321E7D760B53301C23E5A4F6A864E /* TBTUIFont.h */,
+				4AEB6560B7B579CA66BDD03D915C73E2 /* TBTUIFont.m */,
+				7B8CA33A2877C8F200820EC6 /* TBTUIPaddingConfig.h */,
+				7B8CA33B2877C8F200820EC6 /* TBTUIPaddingConfig.m */,
+			);
+			name = UITool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BCC473804D39737B744AE773C3334146 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D11EF6271495E515FEC62DD7A43770C /* Pods-TBTUIKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD036795D89665DE95769649681ED635 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5858A7D96836E24CC3995E8519D247 /* Pods-TBTUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EEFF6167CB5A62233250C7E9B283C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94614E488223DB9690E821BCD03D7CE /* TBTTabBar.h in Headers */,
+				696566DB18F0D11E03E0DCA45D825ED8 /* TBTTabBarController.h in Headers */,
+				FAB9835BE79EB16C90653FAF612E5521 /* TBTTabBarController-umbrella.h in Headers */,
+				ADC65FCF453301C2740A238251DA3057 /* TBTTabBarItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8006781A7B4C5F0EDC97B99A9C2DF4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F850811E1D5B4E18E846D5D386986F /* CADisplayLink+Block.h in Headers */,
+				44C754B67AF156A610601D6C6D4BFAC9 /* MacroHeader.h in Headers */,
+				CECBF08479CC6AAAE41DD043B24EC8D7 /* NSDate+Utilites.h in Headers */,
+				7B8CA33C2877C8F200820EC6 /* TBTUIPaddingConfig.h in Headers */,
+				121B262F6909CFC7060481CD272E2E12 /* NSObject+AssociatedObject.h in Headers */,
+				3A60E70B6ABD1FA17AF7FE126F12DEAC /* NSString+Extension.h in Headers */,
+				975E8CE4653F0592BCD1EAE3EE574A9C /* NSString+Size.h in Headers */,
+				7813E45F0E9AC26EE43152088678BBD6 /* NSTimer+TBTSafeTimer.h in Headers */,
+				D3F7F51FA018C99EA2179EF6A16E3E7A /* TBTAlertConfigHeader.h in Headers */,
+				6BC38E56FCCAD12974EBCCDEF2DEA11D /* TBTAlertView.h in Headers */,
+				BD3DA8A6E50CC8AEB5D687CAA2DF6AB9 /* TBTAlertViewItem.h in Headers */,
+				2A7B3CF9F7BDF8435F51AD032985FCB2 /* TBTBaseAlertView.h in Headers */,
+				E63DC446D4562DAB17A39390445E1247 /* TBTBaseModel.h in Headers */,
+				D249216069F84FBA12ED64435493E3EA /* TBTBaseNavigationViewController.h in Headers */,
+				A83D98E14379E226BC630C2501C49553 /* TBTBaseRefreshHeaderView.h in Headers */,
+				C0DFB267DDF738BEBF020CB168D5557A /* TBTBaseViewController.h in Headers */,
+				0C763DD2CAEB980DAE18FB59395B89C2 /* TBTBaseViewModel.h in Headers */,
+				36C5CAAB0524D7BDB45285EBB1EA09F8 /* TBTCollectionView.h in Headers */,
+				BC8ABFC68866EE0530C7482BF213CFFC /* TBTLoadMoreFooterView.h in Headers */,
+				C9CA93DA6FACEBCE6120E89D58D92D6D /* TBTNSObjectExtension.h in Headers */,
+				A995D8611773356A303955FA0AC5EBF3 /* TBTRefreshActivityAnimationView.h in Headers */,
+				C5C353FA6D393110CF23BB99DCACDD33 /* TBTRefreshHeaderView.h in Headers */,
+				5795152913421690E95583A961C3B9BA /* TBTScrollView.h in Headers */,
+				9F41071E9522BD77F2BC2C7EC00B569E /* TBTTableView.h in Headers */,
+				C618ED412F4241DF9506E963A7802325 /* TBTUIColor.h in Headers */,
+				7E461263A417A9B3DD03A142EFB9D265 /* TBTUIFont.h in Headers */,
+				C108889BF8A611ABE239EBC88E61CAAB /* TBTUIImageExtension.h in Headers */,
+				C41BC9E950DF6557A6D5B1928F1C217E /* TBTUIKit-umbrella.h in Headers */,
+				D131185C270E6C0968E0401292B9756F /* UIButton+HitBounds.h in Headers */,
+				86B695F15AB5548C514FE5FEB6C0EBA4 /* UIButton+TBTTimerBtn.h in Headers */,
+				94558A2560DEF5C58DD798C7627CF25A /* UIColor+Hex.h in Headers */,
+				7144D0B7CBC3326E257D9EB0581C4867 /* UIDevice+Utilities.h in Headers */,
+				C41E563EA2F0D41A159278AEA05231A7 /* UIImage+Blur.h in Headers */,
+				E27C4A9F2148AC60B271D52F1390168E /* UIImage+Crop.h in Headers */,
+				48D01C01B7D7D374BBD73106CC47827C /* UIImage+Stretch.h in Headers */,
+				20FDE914393F3A50E2AE90720810D700 /* UIImage+TBTBundleImage.h in Headers */,
+				F5FC7FA6BA539C0756DBDA0D76F8E851 /* UIImage+TextWaterMark.h in Headers */,
+				E4B17B7DB4DEEE6526FCD9F2C3FBF8FE /* UINavigationItem+TBTNavigation.h in Headers */,
+				F5D977AE24CD8ED41F3DF816BEC24ADD /* UIScrollView+Additions.h in Headers */,
+				6C1C3CA03041799B89871B9C688339D7 /* UIView+TBTViewExtension.h in Headers */,
+				E806D57311DA0F5D82BF0DD8EA7C768E /* UIView+Toast.h in Headers */,
+				198E4DD2C31F5DC7B2D9C06923461564 /* UIView+WalkSubview.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C98BB95028CD570E41647F91EBD06B6 /* Pods-TBTUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327D5289EEBD4D11EC7AF810767F66C8 /* Build configuration list for PBXNativeTarget "Pods-TBTUIKit_Example" */;
+			buildPhases = (
+				BCC473804D39737B744AE773C3334146 /* Headers */,
+				31E7D13140E26E2DC5AF1CA07AB580A1 /* Sources */,
+				BEE38A9D717700C8246386C817CFBA2E /* Frameworks */,
+				050F16B0CFABE61625877427BFDA6CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A09D7BD8A962DAE0890F998D2C5DDDC7 /* PBXTargetDependency */,
+				5C3848655C654DA54D1BAE7C218306F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-TBTUIKit_Example";
+			productName = Pods_TBTUIKit_Example;
+			productReference = 784462E7F45DF5929049CC7599FEDD46 /* Pods-TBTUIKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F366E850E6195AAD110FFDA655E578F /* TBTUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D05940118B027FA68C7CF7B8495ECEA /* Build configuration list for PBXNativeTarget "TBTUIKit" */;
+			buildPhases = (
+				F8006781A7B4C5F0EDC97B99A9C2DF4D /* Headers */,
+				48465487FD5F2181D66FD204211A9B07 /* Sources */,
+				A54D90E481E70B284A20D8F448BCDDE6 /* Frameworks */,
+				EF443AC333B2F75E97E43E4C126FB3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F9CE522EFB31BDDB1AE144EDACE032 /* PBXTargetDependency */,
+			);
+			name = TBTUIKit;
+			productName = TBTUIKit;
+			productReference = EFA4313598997033DA1DF2D40B247681 /* TBTUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7C2C2CE546259EE7E2A8E9B64B992D1 /* TBTTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123F842C7BD5275A81856DFE785F9438 /* Build configuration list for PBXNativeTarget "TBTTabBarController" */;
+			buildPhases = (
+				D4EEFF6167CB5A62233250C7E9B283C1 /* Headers */,
+				510C271383561521939C9EE4B6E3DC7B /* Sources */,
+				33870D76FF9FAC41CBC163BCC923B2A6 /* Frameworks */,
+				AF8C0ACA331FA47C7C99A7EB829BF4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBTTabBarController;
+			productName = TBTTabBarController;
+			productReference = 48D2043033C0B4CBD1534797963B5ED6 /* TBTTabBarController */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1B8A52A74833EC23BF15A89C34BF27D /* Pods-TBTUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8719AB7790AC684AD388CD82832E252 /* Build configuration list for PBXNativeTarget "Pods-TBTUIKit_Tests" */;
+			buildPhases = (
+				BD036795D89665DE95769649681ED635 /* Headers */,
+				521A169C8F6CD0CD56CF0D7424358059 /* Sources */,
+				3FB53987E4DF15ADCE4DCB1606D10FEE /* Frameworks */,
+				013FF9437683130D7BE6D7C308850294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B29A81F74F0D0366AAD3550DE81C413 /* PBXTargetDependency */,
+			);
+			name = "Pods-TBTUIKit_Tests";
+			productName = Pods_TBTUIKit_Tests;
+			productReference = F1DE8F9D291EB7A6C5C8877B463AB6CD /* Pods-TBTUIKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B9FD2B498CBE9DABD88CFE34F292A2CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C98BB95028CD570E41647F91EBD06B6 /* Pods-TBTUIKit_Example */,
+				F1B8A52A74833EC23BF15A89C34BF27D /* Pods-TBTUIKit_Tests */,
+				A7C2C2CE546259EE7E2A8E9B64B992D1 /* TBTTabBarController */,
+				8F366E850E6195AAD110FFDA655E578F /* TBTUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013FF9437683130D7BE6D7C308850294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050F16B0CFABE61625877427BFDA6CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8C0ACA331FA47C7C99A7EB829BF4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF443AC333B2F75E97E43E4C126FB3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31E7D13140E26E2DC5AF1CA07AB580A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB09E8208DCE2103A9C14D70B5C8E2C7 /* Pods-TBTUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48465487FD5F2181D66FD204211A9B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208BB4EC66A62B863DF9BB62E35ECFE1 /* CADisplayLink+Block.m in Sources */,
+				702E0EA5A5151A3CB9A5557CFD5C0E58 /* NSDate+Utilites.m in Sources */,
+				A63258A3967BA2F902F1C8973DCD3873 /* NSObject+AssociatedObject.m in Sources */,
+				8269362706F26378C62FF7A086B25028 /* NSString+Extension.m in Sources */,
+				D0CB049B8BFB411FD2F3BB98EDF598B1 /* NSString+Size.m in Sources */,
+				D073EBA8F31E13718B83885C96A7BB37 /* NSTimer+TBTSafeTimer.m in Sources */,
+				1CA37986373FCFA555EDF483163F93E7 /* TBTAlertView.m in Sources */,
+				C841310A2A706F7C875CED8902E9121F /* TBTAlertViewItem.m in Sources */,
+				26B169E18DE68CCDA8464EC55E6E3A4B /* TBTBaseAlertView.m in Sources */,
+				6AD5A2B866D082DCC93C13D9E4E597AE /* TBTBaseModel.m in Sources */,
+				6BB685DA9961DF801C055F6C690B1676 /* TBTBaseNavigationViewController.m in Sources */,
+				9EAF062F4B45CE1701411F896B262C59 /* TBTBaseRefreshHeaderView.m in Sources */,
+				7B8CA33D2877C8F200820EC6 /* TBTUIPaddingConfig.m in Sources */,
+				EBE2ACE4DEFB5CCBF3C1E2FC539F5456 /* TBTBaseViewController.m in Sources */,
+				A47C6C93C8A6A253638DDC810EEB8336 /* TBTBaseViewModel.m in Sources */,
+				BEC382294CF5662E2EBD34E02C509A2E /* TBTCollectionView.m in Sources */,
+				81D6A39EB234BE76A0551BC1EFCBD6AD /* TBTLoadMoreFooterView.m in Sources */,
+				C9EB20A8253F91625D23B7348EA3FF3C /* TBTNSObjectExtension.m in Sources */,
+				FCFC5ED1AA061AAD0BE3146D4EED503D /* TBTRefreshActivityAnimationView.m in Sources */,
+				02D1F0E059AC00AD83A69CB236EBAE32 /* TBTRefreshHeaderView.m in Sources */,
+				AFDD5F0D67DC45620AB2214EB1803BC0 /* TBTScrollView.m in Sources */,
+				F13A2E40FC5DE73A54508C7E88A28498 /* TBTTableView.m in Sources */,
+				44C7A4A2CDD4398BDB7BDB52A3CCB1F2 /* TBTUIColor.m in Sources */,
+				93F5AD793E507FB0313327DE1591606F /* TBTUIFont.m in Sources */,
+				55650CA13BE403088DCB03A856E03D6C /* TBTUIImageExtension.m in Sources */,
+				50CFC15EB3B20A1571397F0889CF97F0 /* TBTUIKit-dummy.m in Sources */,
+				32F038FB905F14E167B390D8138EDB4F /* UIButton+HitBounds.m in Sources */,
+				B345F655DD9CF9D1A129B141E2EEEDAF /* UIButton+TBTTimerBtn.m in Sources */,
+				F3981E788813DD5887B2D7DAEE717167 /* UIColor+Hex.m in Sources */,
+				974BFE178B98C72BB5DB67D03ED76368 /* UIDevice+Utilities.m in Sources */,
+				CE6DA5A94830437292D07E94B8749342 /* UIImage+Blur.m in Sources */,
+				3C368EA99C920D811E3F700AD44E2DD2 /* UIImage+Crop.m in Sources */,
+				182BC71861D6ABB2229020BCCCCE6C9A /* UIImage+Stretch.m in Sources */,
+				7F5F7864FD7DDDFCC684FF36427D0F66 /* UIImage+TBTBundleImage.m in Sources */,
+				F634FF80F5A3C0B9B4283406F46C5B73 /* UIImage+TextWaterMark.m in Sources */,
+				2D163F0D6033FC9CAC3330C954E321C2 /* UINavigationItem+TBTNavigation.m in Sources */,
+				7371404549EA46B39A8DDC1626DDDF06 /* UIScrollView+Additions.m in Sources */,
+				2243855FC870BAC79944F989CFADBBCD /* UIView+TBTViewExtension.m in Sources */,
+				A34CE83B94FF979FBCF16911F9B10409 /* UIView+Toast.m in Sources */,
+				E5B51AB2A2585121E0BC83C050478F84 /* UIView+WalkSubview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510C271383561521939C9EE4B6E3DC7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77311D8E61F10D088EA15BEA30B38BEB /* TBTTabBar.m in Sources */,
+				95AFAB8CA792AE35DAD7AB9C40A50814 /* TBTTabBarController.m in Sources */,
+				A9155355446C9A9A62382FB97DD74C05 /* TBTTabBarController-dummy.m in Sources */,
+				AF0D2243600C322015FA569EAADDEF2F /* TBTTabBarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521A169C8F6CD0CD56CF0D7424358059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A42C6E3AA290E09073C8FCA68DA3F2F /* Pods-TBTUIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29F9CE522EFB31BDDB1AE144EDACE032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBTTabBarController;
+			target = A7C2C2CE546259EE7E2A8E9B64B992D1 /* TBTTabBarController */;
+			targetProxy = EF5762A0D822B7A454870D3F3B6FD55A /* PBXContainerItemProxy */;
+		};
+		2B29A81F74F0D0366AAD3550DE81C413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TBTUIKit_Example";
+			target = 1C98BB95028CD570E41647F91EBD06B6 /* Pods-TBTUIKit_Example */;
+			targetProxy = 48C586B3611356DCC5D71E2A58528B88 /* PBXContainerItemProxy */;
+		};
+		5C3848655C654DA54D1BAE7C218306F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBTUIKit;
+			target = 8F366E850E6195AAD110FFDA655E578F /* TBTUIKit */;
+			targetProxy = 2DBE82E0F91573FF0A94A767C6B6DBDB /* PBXContainerItemProxy */;
+		};
+		A09D7BD8A962DAE0890F998D2C5DDDC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBTTabBarController;
+			target = A7C2C2CE546259EE7E2A8E9B64B992D1 /* TBTTabBarController */;
+			targetProxy = 2DB8FC9EAA84269BC363FB35B2DC4547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4230C37B476D5630D8087D8AA341376A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112A7A0E60C9291455E20A3ACEF331EC /* Pods-TBTUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBTUIKit_Tests/Pods-TBTUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBTUIKit_Tests/Pods-TBTUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43FF0C329F7B7C67B0693DFD2728DA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F4FB855B7A75AFB201298D546E4EA8 /* TBTTabBarController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TBTTabBarController/TBTTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBTTabBarController/TBTTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBTTabBarController/TBTTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = TBTTabBarController;
+				PRODUCT_NAME = TBTTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51C848BB4D84D12A0F797DDA2C11666F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD302C6754986150084F72C604945F1 /* TBTUIKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TBTUIKit/TBTUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBTUIKit/TBTUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBTUIKit/TBTUIKit.modulemap";
+				PRODUCT_MODULE_NAME = TBTUIKit;
+				PRODUCT_NAME = TBTUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F454C64F9872B2F7CCF9F22C8FEDF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D94DA918E1CA54C69361B827452E21 /* Pods-TBTUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBTUIKit_Tests/Pods-TBTUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBTUIKit_Tests/Pods-TBTUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		999B5E006B505554E78CDA9495C9CC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3627A512455C61F070804903ADD440 /* Pods-TBTUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBTUIKit_Example/Pods-TBTUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBTUIKit_Example/Pods-TBTUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C848314D8E1E284E96B82F33541F5B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDEA4548064675F3C4118D648C330FC4 /* TBTUIKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TBTUIKit/TBTUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBTUIKit/TBTUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBTUIKit/TBTUIKit.modulemap";
+				PRODUCT_MODULE_NAME = TBTUIKit;
+				PRODUCT_NAME = TBTUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DC51833CA3F2FD4D6BA3479F29A6F431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E649245AFB43F532416A851DC8BB73 /* TBTTabBarController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TBTTabBarController/TBTTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBTTabBarController/TBTTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBTTabBarController/TBTTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = TBTTabBarController;
+				PRODUCT_NAME = TBTTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6DB62D39E6528DE33AA7382A3B7BFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A78D08495BE6FF8C6B975212CB49F9 /* Pods-TBTUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBTUIKit_Example/Pods-TBTUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBTUIKit_Example/Pods-TBTUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		123F842C7BD5275A81856DFE785F9438 /* Build configuration list for PBXNativeTarget "TBTTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43FF0C329F7B7C67B0693DFD2728DA1A /* Debug */,
+				DC51833CA3F2FD4D6BA3479F29A6F431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D05940118B027FA68C7CF7B8495ECEA /* Build configuration list for PBXNativeTarget "TBTUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C848314D8E1E284E96B82F33541F5B12 /* Debug */,
+				51C848BB4D84D12A0F797DDA2C11666F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327D5289EEBD4D11EC7AF810767F66C8 /* Build configuration list for PBXNativeTarget "Pods-TBTUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DB62D39E6528DE33AA7382A3B7BFB6 /* Debug */,
+				999B5E006B505554E78CDA9495C9CC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8719AB7790AC684AD388CD82832E252 /* Build configuration list for PBXNativeTarget "Pods-TBTUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F454C64F9872B2F7CCF9F22C8FEDF60 /* Debug */,
+				4230C37B476D5630D8087D8AA341376A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

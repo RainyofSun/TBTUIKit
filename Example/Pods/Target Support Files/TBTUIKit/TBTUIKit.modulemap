@@ -1,0 +1,6 @@
+framework module TBTUIKit {
+  umbrella header "TBTUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_TBTUIKit_Tests {
+  umbrella header "Pods-TBTUIKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

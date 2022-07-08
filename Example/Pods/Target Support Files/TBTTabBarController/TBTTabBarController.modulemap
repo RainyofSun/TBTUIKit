@@ -1,0 +1,6 @@
+framework module TBTTabBarController {
+  umbrella header "TBTTabBarController-umbrella.h"
+
+  export *
+  module * { export * }
+}
